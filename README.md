@@ -55,20 +55,57 @@ Then open `http://localhost:8000/candify.html`.
 
 ## Screenshots
 
-See `docs/SCREENS.md` for annotated screenshots of every screen. Quick overview:
+See `docs/SCREENS.md` for detailed annotations of every component.
 
-| Screenshot | Description |
-|-----------|-------------|
-| `docs/01-home-light.png` | Home view with results banner (light) |
-| `docs/02-home-dark.png` | Home view (dark mode) |
-| `docs/03-state-light.png` | State races with winner display (light) |
-| `docs/04-state-dark.png` | State races (dark mode) |
-| `docs/05-state-race2-light.png` | Second race in carousel |
-| `docs/06-detail-light.png` | Candidate detail — overview slide (light) |
-| `docs/07-detail-dark.png` | Candidate detail (dark mode) |
-| `docs/08-detail-stances-light.png` | Candidate detail — stances slide |
-| `docs/09-home-filter-light.png` | Home with Senate filter active |
-| `docs/10-home-desktop-light.png` | Home view at desktop width |
+### Home View (Light)
+Results banner with Senate/House/Governor control, state grid with search and filter tabs.
+
+![Home — Light](docs/01-home-light.png)
+
+### Home View (Dark)
+Full dark mode with adjusted colors and contrast.
+
+![Home — Dark](docs/02-home-dark.png)
+
+### Home — Desktop Layout
+State grid expands to 4+ columns on wider screens.
+
+![Home — Desktop](docs/10-home-desktop-light.png)
+
+### Home — Filter Active
+Senate filter applied, showing only states with Senate races.
+
+![Home — Filter](docs/09-home-filter-light.png)
+
+### State Races (Light)
+Race carousel with result badges, winner display, flip indicators, and candidate cards with winner/loser highlighting.
+
+![State — Light](docs/03-state-light.png)
+
+### State Races (Dark)
+Same view in dark mode.
+
+![State — Dark](docs/04-state-dark.png)
+
+### State Races — Second Slide
+Swiping to the next race in the carousel.
+
+![State — Race 2](docs/05-state-race2-light.png)
+
+### Candidate Detail — Overview (Light)
+Deep-dive hero with win/loss status, plus the overview info slide.
+
+![Detail — Light](docs/06-detail-light.png)
+
+### Candidate Detail (Dark)
+Detail view in dark mode.
+
+![Detail — Dark](docs/07-detail-dark.png)
+
+### Candidate Detail — Stances
+The "Where They Stand" slide showing all policy positions.
+
+![Detail — Stances](docs/08-detail-stances-light.png)
 
 ## Updating Data
 
