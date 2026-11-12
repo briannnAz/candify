@@ -1,0 +1,102 @@
+<title>Candify</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Intro Splash -->
+<div class="intro-overlay" id="intro-overlay" aria-hidden="true">
+  <div class="intro-slide intro-slide-red">
+    <h2>Know your candidates before you vote.</h2>
+  </div>
+  <div class="intro-slide intro-slide-blue" id="intro-blue">
+    <h2>But without all the bias involved.</h2>
+  </div>
+</div>
+
+<a class="skip-nav" href="#main-content">Skip to main content</a>
+<div id="app">
+  <nav class="topbar" aria-label="Site">
+    <span class="topbar-name">CANDIFY</span>
+  </nav>
+
+  <main id="main-content">
+  <!-- VIEW: HOME -->
+  <div id="v-home" class="v is-active">
+    <div class="home-hero">
+      <div class="hero-eyebrow">2026 USA Midterm Elections</div>
+      <h1>Know your candidates before you vote.</h1>
+      <p>Unbiased, compiled data on every major 2026 race. Stances, differences, and what to watch out for — organized by state.</p>
+    </div>
+
+    <div class="results-banner" id="results-banner" style="display:none"></div>
+
+    <h2 class="section-eyebrow" id="state-heading">Select a state</h2>
+
+    <div class="filter-tabs" id="filter-tabs" role="tablist" aria-label="Filter states">
+      <button class="filter-tab on" data-filter="all" role="tab" aria-selected="true">All States</button>
+      <button class="filter-tab" data-filter="competitive" role="tab" aria-selected="false">Competitive</button>
+      <button class="filter-tab" data-filter="senate" role="tab" aria-selected="false">Senate</button>
+      <button class="filter-tab" data-filter="house" role="tab" aria-selected="false">House</button>
+      <button class="filter-tab" data-filter="governor" role="tab" aria-selected="false">Governor</button>
+    </div>
+
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input class="search-input" id="state-search" type="text" placeholder="Search states..." aria-label="Search states">
+    </div>
+
+    <div class="state-grid stg" id="state-grid" role="list" aria-labelledby="state-heading"></div>
+
+    <div id="home-loading" class="loading">
+      <div class="loading-spinner"></div>
+      Loading election data...
+    </div>
+
+    <!-- Source banner -->
+    <div class="source-banner" id="source-banner" style="display:none">
+      <div class="source-banner-title">Do your own research</div>
+      <div class="source-logos" id="source-logos"></div>
+    </div>
+
+    <div class="foot" id="home-foot" style="display:none">
+      Compiled from multiple nonpartisan outlets.<br>
+      Presented for educational purposes. Verify with official sources before voting.
+      <div class="updated-badge" id="updated-badge"></div>
+    </div>
+  </div>
+
+  <!-- VIEW: STATE RACES -->
+  <div id="v-state" class="v">
+    <button class="back" id="state-back" aria-label="Back to all states">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      All states
+    </button>
+    <div class="state-header" id="state-header"></div>
+    <div class="rc-counter" id="rc-counter"></div>
+    <div class="rc-wrap" id="rc-wrap" role="region" aria-roledescription="carousel" aria-label="Races in this state">
+      <div class="rc-track" id="rc-track"></div>
+    </div>
+    <div class="rc-nav" id="rc-nav">
+      <div class="rc-dots" id="rc-dots" role="tablist" aria-label="Race slides"></div>
+      <div class="rc-arrows">
+        <button class="car-arr" id="rc-prev" disabled aria-label="Previous race"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button class="car-arr" id="rc-next" aria-label="Next race"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIEW: DETAIL -->
+  <div id="v-detail" class="v">
+    <button class="back" id="detail-back" aria-label="Back to state races">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      Back to races
+    </button>
+    <div id="detail-root"></div>
+  </div>
+  </main>
+</div>
+
+<script src="app.js"></script>
+<script src="carousel.js"></script>
+<script src="views.js"></script>
+<script>init();</script>
