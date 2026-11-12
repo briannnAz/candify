@@ -1,0 +1,3599 @@
+{
+  "meta": {
+    "lastUpdated": "2026-11-12",
+    "cycle": "2026 Midterm Elections",
+    "sources": [
+      "Cook Political Report",
+      "Ballotpedia",
+      "270toWin",
+      "NPR",
+      "CBS News",
+      "AJC (Atlanta Journal-Constitution)",
+      "Texas Tribune",
+      "Bridge Michigan",
+      "Time",
+      "Boston Globe",
+      "Iowa Capital Dispatch",
+      "OnTheIssues.org",
+      "Cardinal Pine",
+      "Anchorage Daily News",
+      "NHPR",
+      "The Gazette (Iowa)",
+      "Guides.Vote",
+      "Capitolist (Florida)",
+      "Fox News",
+      "CNBC",
+      "PBS",
+      "WABE (Atlanta)",
+      "The Current GA",
+      "Associated Press",
+      "Yahoo News",
+      "Crystal Ball (UVA)",
+      "pollcheck.co.uk"
+    ],
+    "overallResults": {
+      "senate": {
+        "dem": 55,
+        "rep": 44,
+        "uncalled": 1,
+        "note": "Alaska Senate still uncalled. Dems gained at least 8 seats."
+      },
+      "house": {
+        "dem": 255,
+        "rep": 167,
+        "uncalled": 13,
+        "note": "Dems won majority. 13 races still uncalled."
+      },
+      "governors": {
+        "dem": 29,
+        "rep": 21,
+        "uncalled": 1,
+        "note": "Alaska Governor still uncalled. Dems flipped GA, TX, OH, IA, NV, KS."
+      }
+    }
+  },
+  "states": {
+    "Alabama": {
+      "abbr": "AL",
+      "races": [
+        {
+          "type": "House",
+          "district": "AL-02",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Shomari Figures",
+              "party": "dem",
+              "role": "U.S. Representative, Incumbent (D-AL)",
+              "poll": null,
+              "stances": [
+                "Won newly drawn majority-minority district in 2024",
+                "Focused on healthcare and voting rights",
+                "First-term incumbent defending redrawn seat"
+              ],
+              "keyIssue": "Republicans redrew this district to be more conservative, threatening the first Black representative from the area in decades.",
+              "diff": "Figures represents a newly diverse district while his opponent leans on the redrawn conservative lean of the seat.",
+              "negatives": "District was redrawn by Republicans to add conservative voters, making reelection significantly harder.",
+              "partyCore": "Runs on expanding civil rights protections, strengthening the social safety net, and ensuring minority representation \u2014 core Democratic values in a historically underrepresented district."
+            },
+            {
+              "name": "TBD",
+              "party": "rep",
+              "role": "Republican Challenger",
+              "poll": null,
+              "stances": [
+                "Running in redrawn, more conservative district",
+                "Backed by national Republican investment"
+              ],
+              "keyIssue": "The GOP sees this redrawn seat as a top pickup opportunity in the South.",
+              "diff": "Benefits from redistricting that shifted the district rightward.",
+              "negatives": "Must overcome the incumbent's name recognition and community ties.",
+              "partyCore": "Aligns with the GOP's agenda of limited government, traditional values, and fiscal conservatism in a district redrawn to favor Republican priorities."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Shomari Figures",
+            "winnerParty": "dem"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Barry Moore",
+              "party": "rep",
+              "role": "U.S. Representative (R-AL)"
+            },
+            {
+              "name": "Everett Wess",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Barry Moore",
+            "winnerParty": "rep"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Tommy Tuberville",
+              "party": "rep",
+              "role": "U.S. Senator (R-AL)"
+            },
+            {
+              "name": "Doug Jones",
+              "party": "dem",
+              "role": "Former U.S. Senator"
+            }
+          ]
+        }
+      ]
+    },
+    "Alaska": {
+      "abbr": "AK",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Treg Taylor",
+              "party": "rep",
+              "role": "Former Attorney General (R-AK)",
+              "poll": null,
+              "stances": [
+                "Law enforcement: Former AG under Dunleavy; built reputation on public safety and crime reduction",
+                "Energy: Supports expanded oil and gas development; wants to streamline permitting for Alaska projects",
+                "Fiscal policy: Conservative on spending; wants to protect the Permanent Fund dividend",
+                "Public safety: Law enforcement background is his core credential; focused on rural crime and drug issues",
+                "Education: Supports school choice options for Alaska families",
+                "Federal relations: Wants to push back on federal overreach in Alaska's land and resource management"
+              ],
+              "keyIssue": "With Dunleavy term-limited, the open seat has attracted a crowded field. Taylor's AG experience positions him as the establishment pick, but the primary weakened him for the general.",
+              "diff": "Taylor is the establishment pick with executive branch experience, while Kreiss-Tomkins offers a progressive alternative with deep roots in rural Alaska and a bipartisan legislative track record.",
+              "negatives": "Faces primary competition that could weaken the eventual nominee. His establishment positioning may not excite voters looking for change. Tied to Dunleavy's administration record.",
+              "partyCore": "Runs as a law-and-order conservative who believes in free-market energy development, limited government, and protecting Alaska's resource economy from federal regulation."
+            },
+            {
+              "name": "Jonathan Kreiss-Tomkins",
+              "party": "dem",
+              "role": "Former State Representative (D-AK)",
+              "poll": null,
+              "stances": [
+                "Rural Alaska: Deep roots in Sitka; focused on rural infrastructure, healthcare, and economic development",
+                "Fishing: Strong advocate for Alaska's commercial fishing industry and sustainable fisheries management",
+                "Education: Championed rural education funding and teacher retention in remote communities",
+                "Healthcare: Focused on rural healthcare access; supports telemedicine expansion for remote areas",
+                "Bipartisanship: Worked across the aisle in the legislature; known for pragmatic rather than ideological approach",
+                "Native issues: Strong ties to Alaska Native communities; supports tribal sovereignty and self-governance"
+              ],
+              "keyIssue": "Democrats see an opening in Alaska's open governor race with ranked-choice voting. Kreiss-Tomkins' rural credibility and bipartisan track record give him a different profile than typical Democratic candidates.",
+              "diff": "Kreiss-Tomkins brings legislative experience and rural credibility vs. Taylor's executive branch background. His bipartisan approach could appeal to Alaska's independent voters under ranked-choice voting.",
+              "negatives": "Democrats haven't won the Alaska governorship since 2002. Must overcome the state's conservative lean. Less name recognition statewide than Taylor.",
+              "partyCore": "Represents the Democratic belief in public investment \u2014 rural healthcare, education funding, and environmental stewardship \u2014 while bridging the gap with Alaska's independent streak through pragmatic bipartisanship."
+            }
+          ],
+          "result": {
+            "status": "uncalled",
+            "note": "Kreiss-Tomkins (D) leads with 49.6%, 76% counted. Ranked-choice applies if no majority."
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Dan Sullivan",
+              "party": "rep",
+              "role": "U.S. Senator, Incumbent (R-AK)",
+              "poll": "45%",
+              "stances": [
+                "Energy: Champions Arctic refuge drilling, NPR-A lease sales, and Cook Inlet development; sponsors Rebuild America Now Act to speed environmental reviews",
+                "Fishing: Wants to limit Endangered Species Act lawsuits via his SPEED Act; calls ESA 'weaponized to thwart development'",
+                "Economy: Credits oil and gas policies for creating jobs and raising state revenue; secured larger royalty share for Alaska",
+                "Defense: Former Marine Corps reserve colonel; strong advocate for military spending and Arctic security",
+                "Environment: Pushed mandatory lease sales in One Big Beautiful Bill Act; opposes NEPA review expansions",
+                "Federal workforce: Supports continued DOGE-style cuts to federal agencies"
+              ],
+              "keyIssue": "Sullivan frames energy development as Alaska's economic lifeline, championing Arctic drilling and regulatory reform while positioning himself as a defender of Alaska's resource economy against federal overreach.",
+              "diff": "Sullivan is the establishment incumbent backed by the oil and gas industry, while Peltola brings crossover appeal with her pro-gun, pro-fishing brand and deep ties to rural and Native Alaska communities.",
+              "negatives": "Alaska's ranked-choice voting system could complicate his path. His strong support for federal agency cuts drew backlash as DOGE layoffs hit Alaska harder than any other state.",
+              "partyCore": "Embodies the Republican platform of energy independence, strong military, and deregulation. Believes Alaska's prosperity depends on unleashing its oil, gas, and mineral resources from federal constraints."
+            },
+            {
+              "name": "Mary Peltola",
+              "party": "dem",
+              "role": "Former U.S. Representative (D-AK)",
+              "poll": "49%",
+              "stances": [
+                "Fishing: Opposes ESA listing for king salmon, arguing it would hurt other salmon fishing; wants Marine Mammal Protection Act consolidated under one agency",
+                "Energy: Supports drilling in Arctic refuge under existing law; backs Izembek road to King Cove; wants stable federal policy that doesn't change every administration",
+                "Federal workforce: Opposes DOGE cuts, saying Alaska was hit hardest; wants federal agency staffing restored to meet regulatory deadlines",
+                "Environment: Wants to codify 2025 Supreme Court NEPA decision and add litigation time limits for project challenges",
+                "Guns: Pro-Second Amendment \u2014 one of few Democrats with an 'A' rating from the NRA",
+                "Native issues: First Alaska Native elected to Congress; advocates for subsistence rights and rural infrastructure"
+              ],
+              "keyIssue": "Peltola's unique ability to win Republican voters with her pro-gun, pro-fishing brand makes this Alaska's most competitive Senate race in years. She credits her bipartisan work for allowing the Willow project.",
+              "diff": "Unlike typical Democrats, Peltola supports Arctic drilling and gun rights, giving her proven crossover appeal. She wants stable energy policy rather than partisan swings, contrasting with Sullivan's aggressive deregulation push.",
+              "negatives": "Lost her House seat in 2024. Running as a Democrat in a state Trump won by 13 points. Must rebuild her coalition after two years out of office.",
+              "partyCore": "A Democrat who defies the national mold \u2014 pro-gun, pro-fishing, pro-development \u2014 but runs on the party's core values of protecting working families, tribal sovereignty, and sustainable resource management."
+            }
+          ],
+          "result": {
+            "status": "uncalled",
+            "note": "Peltola (D) leads by ~4,250 votes with 84% counted. Ranked-choice count starts Nov 18 if no majority."
+          }
+        }
+      ]
+    },
+    "Arizona": {
+      "abbr": "AZ",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Katie Hobbs",
+              "party": "dem",
+              "role": "Governor, Incumbent (D-AZ)",
+              "poll": null,
+              "stances": [
+                "Water: Leading Arizona's response to Colorado River crisis; invested in water recycling and conservation",
+                "Education: Pushed for teacher pay raises and public school funding; vetoed school voucher expansions",
+                "Economy: Attracted semiconductor manufacturing investment to Arizona; TSMC fab expansion",
+                "Abortion: Vetoed multiple Republican attempts to restrict abortion access; supports current Arizona law",
+                "Immigration: Moderate on border policy; deployed National Guard but opposed Texas-style enforcement",
+                "Healthcare: Defended Medicaid expansion; opposes Republican attempts to cut coverage"
+              ],
+              "keyIssue": "Hobbs won by less than a point in 2022 and must defend in a state Trump carried in 2024. Arizona's water crisis and semiconductor boom give her a governing record to run on.",
+              "diff": "Hobbs is the incumbent with a governing record on water, education, and economic development, while Biggs is a firebrand conservative congressman pushing a hard-right agenda in a purple state.",
+              "negatives": "Won 2022 by the narrowest margin of any governor. Arizona swung to Trump in 2024. Her cautious governing style frustrates some progressives who want bolder action.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            },
+            {
+              "name": "Andy Biggs",
+              "party": "rep",
+              "role": "U.S. Representative (R-AZ)",
+              "poll": null,
+              "stances": [
+                "Immigration: Hardline border enforcement; former Freedom Caucus chair who pushed the most aggressive deportation policies",
+                "Government: Voted against certifying 2020 election; strongly anti-establishment and anti-regulation",
+                "Economy: Opposes government spending programs; strict fiscal conservative who voted against infrastructure bills",
+                "Education: Supports school choice and parental rights; opposes what he calls 'woke' curriculum",
+                "Climate: Climate skeptic; opposes environmental regulations and clean energy mandates",
+                "Social issues: Strongly conservative on abortion and LGBTQ+ issues; opposes Hobbs' vetoes of social legislation"
+              ],
+              "keyIssue": "Biggs represents the hard-right challenge to Hobbs, betting that Arizona's rightward shift in 2024 continues through 2026 and that a strongly conservative candidate can win statewide.",
+              "diff": "Biggs is far more conservative than a typical statewide Arizona candidate, contrasting sharply with Hobbs' moderate governing approach. His Freedom Caucus credentials energize the base but risk alienating swing voters.",
+              "negatives": "His far-right positions may alienate the suburban swing voters who decide Arizona statewide races. His 2020 election certification vote is a liability with independents. No executive experience.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Katie Hobbs",
+            "winnerParty": "dem"
+          }
+        }
+      ]
+    },
+    "Arkansas": {
+      "abbr": "AR",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Tom Cotton",
+              "party": "rep",
+              "role": "U.S. Senator, Incumbent (R-AR)"
+            },
+            {
+              "name": "Hallie Shoffner",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Sarah Huckabee Sanders",
+              "party": "rep",
+              "role": "Governor, Incumbent (R-AR)"
+            },
+            {
+              "name": "Fred Love",
+              "party": "dem",
+              "role": "State Senator (D-AR)"
+            }
+          ]
+        }
+      ]
+    },
+    "California": {
+      "abbr": "CA",
+      "races": [
+        {
+          "type": "House",
+          "district": "CA-13",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Adam Gray",
+              "party": "dem",
+              "role": "U.S. Representative, Incumbent (D-CA)",
+              "poll": null,
+              "stances": [
+                "Won 2024 by fewer than 200 votes \u2014 the narrowest House margin in the country",
+                "Moderate Democrat in agricultural Central Valley district; supports water rights for farmers",
+                "Top NRCC target; focuses on local issues over national party",
+                "Supports immigration reform with agricultural worker protections",
+                "Pro-business moderate who works with Republicans on farm bills",
+                "Opposes Green New Deal but supports practical environmental measures"
+              ],
+              "keyIssue": "This is the most competitive House seat in America \u2014 Gray won by fewer than 200 votes in 2024. The agricultural Central Valley economy and water rights dominate local politics.",
+              "diff": "Gray's moderate positioning and agricultural focus vs. Lincoln's military background and conservative pitch. Gray has proven he can win this district, barely, but any swing could flip it.",
+              "negatives": "His ultra-narrow 2024 victory margin makes him the #1 Republican target. National Democratic brand is a liability in this agricultural district.",
+              "partyCore": "A moderate Democrat running on practical governance: water infrastructure, agricultural jobs, and local economic development rather than national progressive ideology."
+            },
+            {
+              "name": "Kevin Lincoln",
+              "party": "rep",
+              "role": "Marine Veteran, Challenger (R-CA)",
+              "poll": null,
+              "stances": [
+                "Marine veteran and former Stockton city councilmember with local government experience",
+                "Focuses on water rights and agricultural economy \u2014 the district's top issues",
+                "Strong Republican recruitment target with military credentials",
+                "Supports border security and immigration enforcement",
+                "Pro-Second Amendment; opposes California gun restrictions",
+                "Opposes excessive environmental regulations that hurt Central Valley agriculture"
+              ],
+              "keyIssue": "Republicans see this as their top House pickup, investing heavily to flip Gray's razor-thin majority. Lincoln's military and local government background is designed to appeal to the district's moderate voters.",
+              "diff": "Lincoln's military credentials and local government experience aim to outperform previous GOP candidates. He positions himself as more in touch with the district's agricultural community.",
+              "negatives": "Must overcome incumbency advantage, even a narrow one. Previous Republican candidates have come close but failed to close the deal.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Adam Gray",
+            "winnerParty": "dem"
+          }
+        },
+        {
+          "type": "House",
+          "district": "CA-22",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "David Valadao",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-CA)",
+              "poll": null,
+              "stances": [
+                "One of few Republicans who voted to impeach Trump",
+                "Represents agricultural Central Valley district",
+                "Survived multiple close races"
+              ],
+              "keyIssue": "New Democratic-drawn maps made this district significantly bluer, threatening Valadao's survival.",
+              "diff": "Valadao's moderate Republican brand faces a tougher district after redistricting.",
+              "negatives": "Redistricting shifted his district toward Democrats. His Trump impeachment vote alienates some GOP base voters.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "TBD",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Running in newly redrawn, more Democratic district"
+              ],
+              "keyIssue": "Democrats' California redistricting made this seat a top pickup target.",
+              "diff": "Benefits from redistricting that shifted the district leftward.",
+              "negatives": "Must still beat an entrenched incumbent with strong name recognition in the Central Valley.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Randy Villegas",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "House",
+          "district": "CA-41",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Ken Calvert",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-CA)",
+              "poll": null,
+              "stances": [
+                "Longest-serving Republican in California's delegation",
+                "Narrowly won reelection in 2024",
+                "Inland Empire district"
+              ],
+              "keyIssue": "Redistricting made this already-competitive district even tougher for Calvert.",
+              "diff": "Calvert's seniority and appropriations influence vs. the challenger's fresher profile in a bluer district.",
+              "negatives": "District redrawn to be more Democratic. Already won by narrow margins before redistricting.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "TBD",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Running in redrawn, more favorable district"
+              ],
+              "keyIssue": "One of several California seats Democrats targeted through redistricting.",
+              "diff": "Benefits from the newly redrawn district lines.",
+              "negatives": "Running against a well-funded, long-tenured incumbent with appropriations power.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Ken Calvert",
+            "winnerParty": "rep"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Xavier Becerra",
+              "party": "dem",
+              "role": "Former HHS Secretary"
+            },
+            {
+              "name": "Steve Hilton",
+              "party": "rep",
+              "role": "Political Commentator"
+            }
+          ]
+        }
+      ]
+    },
+    "Colorado": {
+      "abbr": "CO",
+      "races": [
+        {
+          "type": "House",
+          "district": "CO-05",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Jeff Crank",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-CO)",
+              "poll": null,
+              "stances": [
+                "Conservative representing Colorado Springs area",
+                "Pro-military spending (near major military bases)",
+                "First-term incumbent"
+              ],
+              "keyIssue": "Democrats see an opening in this traditionally safe Republican seat amid anti-Trump backlash.",
+              "diff": "Crank is the establishment conservative while Killin offers a progressive alternative in a shifting district.",
+              "negatives": "First-term incumbent without deep roots. District demographics are slowly shifting.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Jessica Killin",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Challenging in traditionally Republican territory",
+                "Focused on military family issues",
+                "Part of Democratic expansion strategy"
+              ],
+              "keyIssue": "This race tests whether Democrats can compete even in traditionally safe Republican seats in 2026.",
+              "diff": "Killin is trying to replicate the suburban shift that has moved other Colorado seats toward Democrats.",
+              "negatives": "The district has historically been reliably Republican. Faces a significant fundraising disadvantage.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Jessica Killin",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "John Hickenlooper",
+              "party": "dem",
+              "role": "U.S. Senator, Incumbent (D-CO)"
+            },
+            {
+              "name": "Mark Baisley",
+              "party": "rep",
+              "role": "State Senator (R-CO)"
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "John Hickenlooper",
+            "winnerParty": "dem"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Phil Weiser",
+              "party": "dem",
+              "role": "Attorney General (D-CO)"
+            },
+            {
+              "name": "Greg Lopez",
+              "party": "rep",
+              "role": "Former U.S. Representative"
+            }
+          ]
+        }
+      ]
+    },
+    "Connecticut": {
+      "abbr": "CT",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Likely D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Ned Lamont",
+              "party": "dem",
+              "role": "Governor, Incumbent (D-CT)"
+            },
+            {
+              "name": "Ryan Fazio",
+              "party": "rep",
+              "role": "State Senator (R-CT)"
+            }
+          ]
+        }
+      ]
+    },
+    "Delaware": {
+      "abbr": "DE",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Chris Coons",
+              "party": "dem",
+              "role": "U.S. Senator, Incumbent (D-DE)"
+            },
+            {
+              "name": "Michael Katz",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Florida": {
+      "abbr": "FL",
+      "races": [
+        {
+          "type": "House",
+          "district": "FL-22",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Casey Askar",
+              "party": "rep",
+              "role": "Republican Nominee",
+              "poll": null,
+              "stances": [
+                "Business owner and political newcomer",
+                "Conservative economic platform",
+                "Self-funded campaign"
+              ],
+              "keyIssue": "This open South Florida seat is one of the most expensive House races in the country.",
+              "diff": "Askar brings business credentials while Dandiya brings community organizing experience.",
+              "negatives": "Political newcomer without governing experience.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Pia Dandiya",
+              "party": "dem",
+              "role": "Democratic Nominee",
+              "poll": null,
+              "stances": [
+                "Community organizer and activist",
+                "Focused on healthcare and immigration reform",
+                "Young, diverse candidate"
+              ],
+              "keyIssue": "South Florida's diverse electorate makes this open seat genuinely competitive.",
+              "diff": "Dandiya represents demographic change in South Florida while Askar represents business conservatism.",
+              "negatives": "First-time candidate in a high-spending race. Must build name recognition quickly.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Casey Askar",
+            "winnerParty": "rep"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Byron Donalds",
+              "party": "rep",
+              "role": "U.S. Representative (R-FL)",
+              "poll": null,
+              "stances": [
+                "Economy: Pro-business, low-regulation; supports continuing Florida's growth-oriented economic model",
+                "Education: Strong school choice advocate; supports parental rights in education; opposes DEI mandates",
+                "Immigration: Hardline on border enforcement; supports state-level immigration crackdowns",
+                "Trump alignment: Rising star in national Republican politics; full Trump supporter",
+                "Crime: Tough-on-crime positioning; opposes criminal justice reform measures",
+                "Taxes: Opposes state income tax; supports Florida's no-income-tax model"
+              ],
+              "keyIssue": "Florida's open governor seat is a marquee race testing whether the state's red shift is permanent. Donalds brings national profile and Trump alignment but must prove he can govern.",
+              "diff": "Donalds brings national profile and Trump alignment while Jolly campaigns as a moderate bipartisan voice. Donalds is the MAGA standard-bearer; Jolly is the former-Republican arguing for a different approach.",
+              "negatives": "His strong Trump alignment may limit appeal with moderate voters in a general election. No executive experience. Some view him as more interested in national profile than state governance.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "David Jolly",
+              "party": "dem",
+              "role": "Former U.S. Representative, Democratic Nominee",
+              "poll": null,
+              "stances": [
+                "Bipartisanship: Former Republican congressman who switched parties; campaigns as the 'grown-up in the room'",
+                "Economy: Moderate economic positioning; supports business-friendly policies with worker protections",
+                "Healthcare: Supports expanding healthcare access; opposes gutting ACA protections",
+                "Education: Supports public schools; critical of extreme school choice proposals",
+                "Immigration: Moderate on immigration; supports comprehensive reform with border security",
+                "Climate: Supports climate resilience investment; concerned about Florida's insurance crisis and sea-level rise"
+              ],
+              "keyIssue": "Jolly's party switch and moderate brand test whether a different kind of Democrat can compete in Florida. His former-Republican credentials give him unique crossover potential.",
+              "diff": "Jolly's Republican background gives him unique crossover appeal vs. Donalds' solidly conservative pitch. He argues Florida needs pragmatic governance, not partisan warfare.",
+              "negatives": "Party-switchers face skepticism from both sides. Florida has trended strongly Republican. Must convince Democratic primary voters he's genuinely on their side while appealing to Republicans in the general.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Byron Donalds",
+            "winnerParty": "rep"
+          }
+        },
+        {
+          "type": "House",
+          "district": "FL-13",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Anna Paulina Luna",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-FL)",
+              "poll": null,
+              "stances": [
+                "First-term incumbent in Tampa Bay area",
+                "Strong Trump ally",
+                "Conservative on immigration and spending"
+              ],
+              "keyIssue": "Luna's district includes parts of the Tampa Bay area where suburban voters have been moving left.",
+              "diff": "Luna's MAGA brand contrasts with Gray's focus on local Tampa Bay issues.",
+              "negatives": "Controversies around her personal biography have drawn media scrutiny.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Leela Gray",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Running on local Tampa Bay issues",
+                "Healthcare and cost-of-living focus",
+                "Part of Democratic suburban strategy"
+              ],
+              "keyIssue": "Democrats are targeting suburban Tampa Bay seats as part of their broader House strategy.",
+              "diff": "Gray offers a local-issues contrast to Luna's national conservative profile.",
+              "negatives": "First-time candidate challenging an incumbent in a district that trended Republican.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Anna Paulina Luna",
+            "winnerParty": "rep",
+            "margin": "< 1 point"
+          }
+        },
+        {
+          "type": "House",
+          "district": "FL-27",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Maria Salazar",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-FL)",
+              "poll": null,
+              "stances": [
+                "Cuban-American representative from Miami",
+                "Moderate on immigration, conservative on economy",
+                "Strong ties to Hispanic community"
+              ],
+              "keyIssue": "Salazar's ability to hold Miami's Cuban-American vote is key to Republican House control.",
+              "diff": "Salazar's Hispanic community roots vs. Rodriguez's Democratic pitch in a shifting South Florida.",
+              "negatives": "Miami-Dade's politics are volatile and shifting. Must maintain her coalition in a changing electorate.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Eliott Rodriguez",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Challenging in Miami-Dade County",
+                "Focused on cost of living and housing",
+                "Appeals to younger Hispanic voters"
+              ],
+              "keyIssue": "Democrats hope to capitalize on housing costs and generational shifts in Miami's Hispanic community.",
+              "diff": "Rodriguez targets younger voters who may not share older Cuban-Americans' Republican lean.",
+              "negatives": "Miami-Dade has shifted rightward. Salazar has strong incumbency advantage with Cuban-American voters.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Maria Salazar",
+            "winnerParty": "rep",
+            "margin": "~1,000 votes after recount"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Likely R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Ashley Moody",
+              "party": "rep",
+              "role": "U.S. Senator, Appointed (R-FL)",
+              "poll": null,
+              "stances": [
+                "Law enforcement: Former AG with strong law enforcement ties; led anti-drug trafficking operations",
+                "Immigration: Hardline on border enforcement; led state-level challenges to Biden immigration policies as AG",
+                "Economy: Pro-business, low-regulation platform aligned with Florida's growth-oriented model",
+                "Crime: Built reputation on tough-on-crime AG record; focuses on fentanyl crisis and human trafficking",
+                "Healthcare: Opposes ACA expansion; supports market-based healthcare solutions",
+                "Social issues: Conservative on abortion; supported Florida's 6-week abortion ban"
+              ],
+              "keyIssue": "Moody was appointed to replace Marco Rubio and must win election on her own. Florida's strong Republican trend gives her structural advantages, but she lacks an elected mandate.",
+              "diff": "Moody has the advantage of incumbency and Florida's rightward trend, while Nixon runs a progressive insurgent campaign. Moody's AG record gives her law enforcement credibility that's hard to counter.",
+              "negatives": "Was appointed rather than elected \u2014 must prove she can win on her own. Her strong conservative positioning may limit crossover appeal if Florida's political environment shifts.",
+              "partyCore": "As a former judge and AG, she represents the law-enforcement wing of the GOP \u2014 tough on crime, tough on immigration, and aligned with DeSantis-era conservative governance in Florida."
+            },
+            {
+              "name": "Angie Nixon",
+              "party": "dem",
+              "role": "State Representative (D-FL)",
+              "poll": null,
+              "stances": [
+                "Criminal justice: Champion of reform legislation in Florida House; opposes mandatory minimums",
+                "Healthcare: Supports Medicaid expansion for Florida; advocates for affordable healthcare access",
+                "Education: Opposes school vouchers; champions public school funding increases",
+                "Economy: Focuses on affordable housing and cost of living in Jacksonville and statewide",
+                "Social issues: Progressive on abortion rights; opposes Florida's 6-week ban",
+                "Voting rights: Advocates for restoring and expanding voting access in Florida"
+              ],
+              "keyIssue": "Nixon is a long-shot challenger running a progressive campaign in a state that has shifted dramatically rightward. Her criminal justice reform focus distinguishes her but faces steep structural headwinds.",
+              "diff": "Nixon represents the progressive wing in a state that has increasingly favored conservatives. Her reform-focused message contrasts with Moody's law-enforcement brand.",
+              "negatives": "Florida has trended heavily Republican \u2014 DeSantis won by 20 points in 2022. Faces a massive fundraising and name-recognition gap. Running statewide for the first time.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Ashley Moody",
+            "winnerParty": "rep"
+          }
+        }
+      ]
+    },
+    "Georgia": {
+      "abbr": "GA",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Burt Jones",
+              "party": "rep",
+              "role": "Lieutenant Governor (R-GA)",
+              "poll": null,
+              "stances": [
+                "Trump alignment: Full Trump endorsement; closely tied to MAGA movement and conservative agenda",
+                "Economy: Pro-business conservative; supports Georgia's economic growth model with tax incentives",
+                "Education: Supports school choice and parental rights; opposes DEI programs in public universities",
+                "Immigration: Hardline on enforcement; supports state-level immigration crackdowns",
+                "Election issues: Played a prominent role in 2020 election challenges; Trump-aligned on election integrity",
+                "Crime: Tough-on-crime positioning; supports law enforcement funding and opposes criminal justice reform"
+              ],
+              "keyIssue": "Georgia's open governor race is a toss-up testing Trump's endorsement power in a purple state. Jones' MAGA alignment is a double-edged sword \u2014 powerful in primaries, risky in the general.",
+              "diff": "Jones has Trump's endorsement and MAGA base support, while Bottoms brings executive experience from leading Atlanta through crises and moderate-progressive positioning that appeals to suburbs.",
+              "negatives": "A dark money group has spent millions attacking him. His 2020 election role draws scrutiny from moderates and independents. His hard-right positioning may not work in a statewide Georgia race.",
+              "partyCore": "Runs on the MAGA-aligned Republican platform: election integrity, law enforcement, and continuing the economic growth model that defined Republican governance in Georgia."
+            },
+            {
+              "name": "Keisha Lance Bottoms",
+              "party": "dem",
+              "role": "Former Mayor of Atlanta (D-GA)",
+              "poll": null,
+              "stances": [
+                "Executive experience: Led Atlanta through 2020 protests and COVID-19 pandemic; crisis management credentials",
+                "Criminal justice: Balanced approach \u2014 invested in police reform while maintaining public safety",
+                "Economy: Attracted major corporate investments to Atlanta; focused on inclusive economic growth",
+                "Housing: Championed affordable housing initiatives as mayor; focused on rising costs in metro Atlanta",
+                "Healthcare: Supports Medicaid expansion; advocates for healthcare access in rural Georgia",
+                "Education: Invested in early childhood education; supports public school funding"
+              ],
+              "keyIssue": "Bottoms' Atlanta leadership and national profile make her the Democratic frontrunner. Her crisis management experience during 2020 gives her a 'tested under fire' narrative that's hard to replicate.",
+              "diff": "Bottoms' executive experience and Atlanta base vs. Jones' Trump-aligned statewide campaign. Her moderate-progressive positioning aims to hold Atlanta suburbs while energizing the Democratic base.",
+              "negatives": "Left the mayor's office amid some controversy. The competitive primary could leave her weakened for the general. Must prove she can win beyond metro Atlanta in increasingly red rural Georgia.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Keisha Lance Bottoms",
+            "winnerParty": "dem",
+            "note": "Flip: R to D. First Black woman governor in US history."
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Jon Ossoff",
+              "party": "dem",
+              "role": "U.S. Senator, Incumbent (D-GA)",
+              "poll": "54%",
+              "stances": [
+                "Healthcare: Fighting to protect rural hospitals from Medicaid cuts; supports drug price negotiation and $35 insulin cap",
+                "Economy: Argues tariffs and war spending are driving up costs; invested $1B+ in infrastructure for Georgia",
+                "Immigration: Authored the Laken Riley Act requiring ICE detention of undocumented immigrants charged with theft; broke with progressive Democrats on border policy",
+                "Foreign policy: Opposes Iran war, says it costs Georgia taxpayers $45M/day; rejects claim Iran was near a nuclear weapon",
+                "Affordability: Ties Republican economic policy directly to rising grocery and gas prices; champions rural hospital funding",
+                "Government reform: Pushed bipartisan ethics legislation and government transparency measures"
+              ],
+              "keyIssue": "Healthcare costs and affordability dominate this race. Ossoff authored the Laken Riley Act on immigration \u2014 a rare bipartisan move \u2014 while tying GOP Medicaid cuts directly to threats against Georgia's rural hospitals.",
+              "diff": "Ossoff blames tariffs and Medicaid cuts for rising costs while Collins blames the ACA. They disagree sharply on the Iran war \u2014 Ossoff says it makes America less safe while Collins defends it. Ossoff's Laken Riley Act complicates the immigration debate.",
+              "negatives": "Trump called him 'weak, arrogant, and hate-filled.' Trump repeated a debunked claim that his 2021 runoff win was rigged. Some progressives criticize his Laken Riley Act as too conservative.",
+              "partyCore": "Represents the new Southern Democratic coalition \u2014 young, diverse, urban \u2014 running on expanding economic opportunity, healthcare access, and government accountability as tools for middle-class prosperity."
+            },
+            {
+              "name": "Mike Collins",
+              "party": "rep",
+              "role": "U.S. Representative (R-GA)",
+              "poll": "45%",
+              "stances": [
+                "Healthcare: Blames ACA for rising costs; cites $218M in rural hospital funding under Republican plan; opposes Medicaid expansion",
+                "Foreign policy: Says Iran war made America safer; supports continued military action without congressional authorization",
+                "Economy: Supports Trump's tariff agenda; blames Biden-era spending for inflation; wants tax cuts extended",
+                "Immigration: Strong border enforcement advocate; supports increased ICE funding and deportation operations",
+                "Energy: Pro-fossil fuel development; opposes clean energy mandates and EPA regulations",
+                "Guns: Opposes all new gun restrictions; supported concealed carry reciprocity"
+              ],
+              "keyIssue": "Collins argues the Iran war was necessary and that the ACA \u2014 not Medicaid cuts \u2014 is the real driver of healthcare costs. He credits Republican policy for $218M in rural hospital funding.",
+              "diff": "Collins credits the administration's rural hospital funding while Ossoff says Medicaid cuts threaten those same hospitals. Collins defends the Iran war as necessary while Ossoff calls it a costly mistake.",
+              "negatives": "A messy GOP primary slowed his general election campaign. He trails significantly in AJC polling at 40% vs. Ossoff's 48%. His hard-right positions may alienate suburban Atlanta voters.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Jon Ossoff",
+            "winnerParty": "dem"
+          }
+        }
+      ]
+    },
+    "Hawaii": {
+      "abbr": "HI",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Josh Green",
+              "party": "dem",
+              "role": "Governor, Incumbent (D-HI)"
+            },
+            {
+              "name": "Gary Cordery",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Idaho": {
+      "abbr": "ID",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Jim Risch",
+              "party": "rep",
+              "role": "U.S. Senator, Incumbent (R-ID)"
+            },
+            {
+              "name": "Todd Achilles",
+              "party": "ind",
+              "role": "Independent Candidate"
+            }
+          ]
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Brad Little",
+              "party": "rep",
+              "role": "Governor, Incumbent (R-ID)"
+            },
+            {
+              "name": "Terri Pickens Manweiler",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Illinois": {
+      "abbr": "IL",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Juliana Stratton",
+              "party": "dem",
+              "role": "Lieutenant Governor (D-IL)"
+            },
+            {
+              "name": "Don Tracy",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "JB Pritzker",
+              "party": "dem",
+              "role": "Governor, Incumbent (D-IL)"
+            },
+            {
+              "name": "Darren Bailey",
+              "party": "rep",
+              "role": "Former State Senator"
+            }
+          ]
+        }
+      ]
+    },
+    "Iowa": {
+      "abbr": "IA",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Zach Lahn",
+              "party": "rep",
+              "role": "Republican Nominee",
+              "poll": null,
+              "stances": [
+                "Agriculture: Pro-agriculture platform supporting Iowa's farming industry; wants to reduce regulatory burden on farmers",
+                "Economy: Conservative fiscal agenda continuing Kim Reynolds' policy direction; supports tax cuts",
+                "Education: Supports Reynolds-era school voucher program; school choice advocate",
+                "Immigration: Supports state-level immigration enforcement; aligned with Trump's border agenda",
+                "Energy: Supports Iowa's renewable energy industry (wind) alongside traditional agriculture and ethanol",
+                "Government: Wants to continue shrinking state government and reducing regulations"
+              ],
+              "keyIssue": "Iowa's open governor race is unexpectedly competitive. Lahn represents continuity with Reynolds-era policies but must build name recognition against a well-known statewide officeholder.",
+              "diff": "Lahn represents continuity with Reynolds-era policies \u2014 school vouchers, tax cuts, conservative social agenda \u2014 while Sand promises a change in direction focused on fiscal transparency and accountability.",
+              "negatives": "Must build name recognition against a well-known statewide officeholder. The Reynolds legacy is a double-edged sword \u2014 popular with the base but her school voucher program is divisive.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Rob Sand",
+              "party": "dem",
+              "role": "State Auditor (D-IA)",
+              "poll": null,
+              "stances": [
+                "Government accountability: Known for aggressive government audits exposing waste and fraud; 'fiscal watchdog' brand",
+                "Education: Critical of school voucher program; supports public school funding",
+                "Economy: Moderate economic positioning; focuses on fiscal responsibility rather than ideological spending",
+                "Healthcare: Supports maintaining Medicaid coverage; opposes cuts to rural healthcare",
+                "Agriculture: Supports Iowa farmers; critical of trade policies that harm agricultural exports",
+                "Bipartisanship: Won statewide twice in a red state by appealing to independents and moderate Republicans"
+              ],
+              "keyIssue": "Sand is one of the only Democrats to win statewide in Iowa recently, winning reelection as auditor in 2022. His 'fiscal watchdog' brand transcends partisanship and appeals to independent voters.",
+              "diff": "Sand's auditor role gives him a unique anticorruption, good-government brand that transcends partisanship. While Lahn promises continuity, Sand promises accountability and a fresh approach.",
+              "negatives": "Iowa has trended heavily Republican at the federal level. Must overcome the state's rightward momentum. Some Democrats worry his moderate positioning doesn't energize the base enough.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Rob Sand",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "House",
+          "district": "IA-02",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Joe Mitchell",
+              "party": "rep",
+              "role": "Republican Nominee",
+              "poll": null,
+              "stances": [
+                "Running for open seat vacated by Hinson",
+                "Conservative platform",
+                "Local business ties"
+              ],
+              "keyIssue": "This open seat created by Hinson's Senate run is a true toss-up in eastern Iowa.",
+              "diff": "Mitchell and James offer contrasting visions for this swing district without incumbency advantage on either side.",
+              "negatives": "No incumbency advantage. Must introduce himself to voters across the district.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Lindsay James",
+              "party": "dem",
+              "role": "Democratic Nominee",
+              "poll": null,
+              "stances": [
+                "Focused on economic issues and agriculture",
+                "Running in open-seat opportunity",
+                "Eastern Iowa community ties"
+              ],
+              "keyIssue": "Democrats see this open seat as their best Iowa House pickup opportunity.",
+              "diff": "James brings community organizing experience vs. Mitchell's business background.",
+              "negatives": "Eastern Iowa has been trending Republican. Must overcome the district's rightward lean.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Lindsay James",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "House",
+          "district": "IA-01",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Mariannette Miller-Meeks",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-IA)",
+              "poll": null,
+              "stances": [
+                "Won 2020 by just 6 votes",
+                "Physician and Army veteran",
+                "Moderate Republican positioning"
+              ],
+              "keyIssue": "Miller-Meeks represents one of the most competitive districts in the country.",
+              "diff": "Miller-Meeks leans on her medical and military background while Bohannan emphasizes education and family issues.",
+              "negatives": "Won her initial race by the smallest margin in modern history. Faces a rematch with a familiar opponent.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Christina Bohannan",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "University of Iowa law professor",
+                "Focused on education and healthcare",
+                "Running a rematch campaign"
+              ],
+              "keyIssue": "Bohannan is running again after a close 2024 loss, with momentum from Democratic enthusiasm.",
+              "diff": "Bohannan brings academic credentials and a fresh-face appeal vs. Miller-Meeks' incumbent record.",
+              "negatives": "Lost in 2024. Must prove she can close the deal this time.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Christina Bohannan",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "House",
+          "district": "IA-03",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Zach Nunn",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-IA)",
+              "poll": null,
+              "stances": [
+                "First-term incumbent in Des Moines suburbs",
+                "Military veteran and Air Force pilot",
+                "Moderate on some economic issues"
+              ],
+              "keyIssue": "Nunn's suburban Des Moines district is shifting toward Democrats amid anti-Trump sentiment.",
+              "diff": "Nunn leans on his military service while Garriott emphasizes suburban quality-of-life issues.",
+              "negatives": "His district has been trending Democratic. Suburban voters are increasingly uneasy with the national GOP brand.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Sarah Trone Garriott",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "State legislator focused on education",
+                "Suburban issues champion",
+                "Part of the suburban Democratic wave"
+              ],
+              "keyIssue": "Des Moines suburbs are the key battleground, and Garriott is positioned to capitalize on Democratic momentum.",
+              "diff": "Garriott represents the suburban shift toward Democrats while Nunn tries to hold moderate ground.",
+              "negatives": "Challenging an incumbent with military credentials and strong fundraising.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Sarah Trone Garriott",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Likely R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Ashley Hinson",
+              "party": "rep",
+              "role": "U.S. Representative (R-IA)",
+              "poll": "46%",
+              "stances": [
+                "Healthcare: Voted for federal Medicaid restructuring that critics call a $1T cut; says she's strengthening Medicare and Social Security",
+                "Immigration: Pledged to be Trump's 'strongest ally' on border security and deportations; 'America First' agenda",
+                "Economy: Supports Trump tax cuts; opposes tax increases on corporations; focused on helping Iowa farmers",
+                "Education: Backs Trump's education agenda; opposes transgender women competing in women's sports",
+                "Foreign policy: Opposed limiting presidential authority on Iran; supports continued military action",
+                "Agriculture: Says she would continue supporting Iowa farmers but hasn't addressed tariff damage to farm exports"
+              ],
+              "keyIssue": "Hinson must balance her Trump alignment with Iowa-specific concerns about tariffs hurting farmers. Her Medicaid restructuring vote is the central attack point in a state where 58% disapprove of Trump.",
+              "diff": "Hinson has a congressional record to defend while Turek runs as the outsider. Her Medicaid vote and silence on tariff damage to farmers are vulnerabilities that Turek exploits relentlessly.",
+              "negatives": "Her Medicaid vote is a major vulnerability. She opposed Trump's diesel deal with Putin, drawing friendly fire from Sen. Grassley. 58% of Iowa voters disapprove of Trump, complicating her 'strongest ally' positioning.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Josh Turek",
+              "party": "dem",
+              "role": "State Representative (D-IA)",
+              "poll": "46%",
+              "stances": [
+                "Healthcare: Opposes Medicaid cuts; says 'health care is a human right'; born with Spina Bifida; supports a public option",
+                "Economy: 'One Big Beautiful Bill gave tax breaks to billionaires'; wants to raise taxes on the 1% and close corporate loopholes",
+                "Agriculture: 'Our farmers need open trade; tariffs have hurt Iowans'; wants Congress to reclaim tariff power from the president",
+                "Immigration: 'Deport violent criminals; pathway to earned citizenship'; supports border strengthening with comprehensive reform",
+                "Social Security: 'Keep Social Security solvent by taking off the cap' \u2014 lift the payroll tax ceiling on high earners",
+                "Foreign policy: Calls for ending the Iran war and returning to diplomacy; wants National Guard out of combat without a congressional declaration"
+              ],
+              "keyIssue": "Turek ties Hinson's Medicaid vote directly to Iowa families losing coverage. His personal story \u2014 born with Spina Bifida \u2014 gives his healthcare message authenticity. He hammers tariff damage to Iowa farmers.",
+              "diff": "Turek attacks Hinson's Medicaid vote while striking a moderate tone on social issues like guns ('bipartisan supporter of gun rights'). He opposes tariffs hurting Iowa farmers while Hinson avoids the tariff topic.",
+              "negatives": "As a relative newcomer to statewide politics, he lacks name recognition. His call for a public option and taxing the wealthy may be too progressive for rural Iowa.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Josh Turek",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        }
+      ]
+    },
+    "Kansas": {
+      "abbr": "KS",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Scott Schwab",
+              "party": "rep",
+              "role": "Secretary of State (R-KS)",
+              "poll": null,
+              "stances": [
+                "Elections: Statewide officeholder with election administration experience; defended Kansas voting systems",
+                "Economy: Conservative fiscal platform; supports tax cuts and reduced government spending",
+                "Education: Supports school choice options; opposes Medicaid expansion",
+                "Agriculture: Pro-agriculture; supports Kansas farming communities and rural infrastructure",
+                "Social issues: Conservative on abortion despite Kansas voters' 2022 vote protecting abortion rights",
+                "Immigration: Supports border enforcement; aligned with Republican immigration platform"
+              ],
+              "keyIssue": "Kansas' open governor race tests whether Democrats can replicate Laura Kelly's surprise 2018 win. The 2022 abortion rights vote showed Kansas voters are more moderate than their Republican legislature.",
+              "diff": "Schwab represents the Republican establishment while Holscher appeals to the suburban moderates and abortion rights supporters who have been the swing vote in recent Kansas elections.",
+              "negatives": "The 2022 abortion rights vote showed Kansas voters rejected his party's position on the issue. Must navigate between conservative base demands and moderate general election voters.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Cindy Holscher",
+              "party": "dem",
+              "role": "State Senator (D-KS)",
+              "poll": null,
+              "stances": [
+                "Healthcare: Champions Medicaid expansion for Kansas \u2014 one of the last holdout states",
+                "Education: Strong advocate for public school funding; opposes school vouchers",
+                "Abortion: Supports the 2022 voter-approved abortion protections; opposes legislative attempts to undermine them",
+                "Economy: Moderate fiscal positioning; supports targeted economic development for Kansas communities",
+                "Suburban appeal: Represents Johnson County suburbs \u2014 the swing region that decides Kansas statewide races",
+                "Government: Pragmatic, moderate Democrat focused on pocketbook issues over ideology"
+              ],
+              "keyIssue": "Democrats hope Kansas' suburban shift and the abortion rights issue can keep the governorship blue. Holscher's Johnson County base is exactly where statewide elections are decided.",
+              "diff": "Holscher appeals to the suburban moderates who have been the swing vote in recent Kansas elections. Her Medicaid expansion and abortion rights positions align with where Kansas voters have already shown they stand.",
+              "negatives": "Kansas has a strong Republican lean statewide. Laura Kelly's 2018 win was an upset that may be hard to replicate. She must outperform in rural Kansas where Democrats are weakest.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Cindy Holscher",
+            "winnerParty": "dem",
+            "margin": "~7,500 votes",
+            "note": "Pending audit, counties certify Nov 15"
+          }
+        },
+        {
+          "type": "House",
+          "district": "KY-06",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Ralph Alvarado",
+              "party": "rep",
+              "role": "Republican Nominee",
+              "poll": null,
+              "stances": [
+                "Former state senator and physician",
+                "Running for open seat vacated by Andy Barr",
+                "Conservative positioning"
+              ],
+              "keyIssue": "This open seat in central Kentucky is more competitive than usual with Barr's departure.",
+              "diff": "Alvarado brings medical credentials while Dembo brings legal and community experience.",
+              "negatives": "Must build name recognition in a district accustomed to Barr's incumbency.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Zach Dembo",
+              "party": "dem",
+              "role": "Democratic Nominee",
+              "poll": null,
+              "stances": [
+                "Running in open-seat opportunity",
+                "Focused on Lexington-area suburban voters",
+                "Economic and healthcare platform"
+              ],
+              "keyIssue": "Democrats see the open seat as a rare opportunity in Kentucky.",
+              "diff": "Dembo appeals to Lexington's growing suburban and university community.",
+              "negatives": "Kentucky is deeply Republican. Must dramatically outperform typical Democratic performance.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Zach Dembo",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Roger Marshall",
+              "party": "rep",
+              "role": "U.S. Senator, Incumbent (R-KS)",
+              "poll": "44%"
+            },
+            {
+              "name": "Adam Hamilton",
+              "party": "dem",
+              "role": "Democratic Nominee",
+              "poll": "48%"
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Adam Hamilton",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        }
+      ]
+    },
+    "Kentucky": {
+      "abbr": "KY",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Likely R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Andy Barr",
+              "party": "rep",
+              "role": "U.S. Representative (R-KY)"
+            },
+            {
+              "name": "Charles Booker",
+              "party": "dem",
+              "role": "Former State Representative"
+            }
+          ]
+        }
+      ]
+    },
+    "Louisiana": {
+      "abbr": "LA",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Julia Letlow",
+              "party": "rep",
+              "role": "U.S. Representative (R-LA)"
+            },
+            {
+              "name": "Jamie Davis",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Maine": {
+      "abbr": "ME",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Susan Collins",
+              "party": "rep",
+              "role": "U.S. Senator, Incumbent (R-ME)",
+              "poll": "46%",
+              "stances": [
+                "Trade: Broke with Trump on tariffs, especially on Canadian imports that hurt Maine's fishing and lumber industries",
+                "Healthcare: Opposes Medicaid cuts in the Big Beautiful Bill; fought to protect ACA coverage for pre-existing conditions",
+                "Immigration: Wants ICE reformed, not abolished; supports bipartisan border security legislation",
+                "Foreign policy: Moderate on Iran \u2014 has questioned scope of military operations while supporting defense funding",
+                "Bipartisanship: Ranks among the most bipartisan senators; leverages appropriations to deliver for Maine",
+                "Abortion: Kavanaugh confirmation vote haunts her; says she supports existing Maine law protecting abortion access"
+              ],
+              "keyIssue": "Collins runs on independence from Trump, breaking with him on tariffs and Medicaid cuts. But 55% of Mainers in a Fox News poll worry she sides with Trump too often \u2014 her moderate brand is being tested.",
+              "diff": "Collins positions herself as the moderate choice who breaks with her party when needed. She supports ICE reform rather than Jackson's call to abolish it. Her appropriations work delivers tangible benefits for Maine.",
+              "negatives": "A Fox News poll found 55% of Mainers worried about her Trump alignment. Her Kavanaugh vote remains deeply unpopular with Democrats and independents. Trump once called her 'not my favorite person.'",
+              "partyCore": "One of the last moderate Republicans: fiscally conservative but willing to cross party lines on healthcare and judicial nominations. Represents the pragmatic, institutional wing of the GOP."
+            },
+            {
+              "name": "Troy Jackson",
+              "party": "dem",
+              "role": "Democratic Nominee (D-ME)",
+              "poll": "50%",
+              "stances": [
+                "Immigration: Calls for abolishing ICE and replacing it with a 'humane immigration enforcement' agency",
+                "Healthcare: Opposes all Medicaid cuts; supports public option as step toward universal coverage",
+                "Economy: Populist economic message focused on working-class Mainers; opposes corporate tax cuts",
+                "Trade: Opposes Trump tariffs as harmful to Maine's lobster and forestry industries",
+                "Labor: Former logger and union leader; champions minimum wage increases and worker protections",
+                "Trump alignment: Frames Collins as a Trump enabler despite her moderate brand; calls her breaks with Trump 'managed resistance'"
+              ],
+              "keyIssue": "Jackson frames this race as a referendum on Trump \u2014 arguing Collins' occasional breaks with the president are performative 'managed resistance' rather than genuine independence.",
+              "diff": "Jackson takes a harder progressive line \u2014 abolishing ICE vs. Collins' call to reform it. He frames Collins as a Trump enabler despite her moderate brand. His working-class logger background contrasts with Collins' establishment image.",
+              "negatives": "Replaced the original Democratic nominee after a last-minute scandal. His call to abolish ICE may alienate moderate Maine voters. More progressive than the typical Maine electorate.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Troy Jackson",
+            "winnerParty": "dem",
+            "note": "Flip: R to D. Collins ousted."
+          }
+        },
+        {
+          "type": "House",
+          "district": "ME-02",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Paul LePage",
+              "party": "rep",
+              "role": "Former Governor (R-ME)",
+              "poll": null,
+              "stances": [
+                "Former two-term governor seeking House seat",
+                "Conservative on fiscal and immigration issues",
+                "High name recognition in rural Maine"
+              ],
+              "keyIssue": "LePage's return to politics and strong name recognition make this open seat competitive.",
+              "diff": "LePage's executive experience vs. Dunlap's deep roots in Maine government and rural advocacy.",
+              "negatives": "His controversial tenure as governor polarized voters. Some Republicans in Maine want a new direction.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Matthew Dunlap",
+              "party": "dem",
+              "role": "Democratic Nominee",
+              "poll": null,
+              "stances": [
+                "Former Secretary of State",
+                "Focused on rural Maine economic issues",
+                "Running for open seat after Golden's departure"
+              ],
+              "keyIssue": "Without Jared Golden's unique crossover brand, Democrats must find a new formula for rural Maine.",
+              "diff": "Dunlap brings government experience and institutional knowledge vs. LePage's combative populist style.",
+              "negatives": "Rural Maine has trended Republican. Lacks Golden's unique personal brand that held the district.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Paul LePage",
+            "winnerParty": "rep",
+            "note": "Dunlap (D) conceded Nov 5"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Likely D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Hannah Pingree",
+              "party": "dem",
+              "role": "Former House Speaker (D-ME)"
+            },
+            {
+              "name": "Robert Charles",
+              "party": "rep",
+              "role": "Former Asst. Secretary of State"
+            }
+          ]
+        }
+      ]
+    },
+    "Maryland": {
+      "abbr": "MD",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Wes Moore",
+              "party": "dem",
+              "role": "Governor, Incumbent (D-MD)"
+            },
+            {
+              "name": "Dan Cox",
+              "party": "rep",
+              "role": "Former State Delegate"
+            }
+          ]
+        }
+      ]
+    },
+    "Massachusetts": {
+      "abbr": "MA",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Ed Markey",
+              "party": "dem",
+              "role": "U.S. Senator, Incumbent (D-MA)"
+            },
+            {
+              "name": "John Deaton",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Maura Healey",
+              "party": "dem",
+              "role": "Governor, Incumbent (D-MA)"
+            },
+            {
+              "name": "Brian Shortsleeve",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Michigan": {
+      "abbr": "MI",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Mike Rogers",
+              "party": "rep",
+              "role": "Former U.S. Representative (R-MI)",
+              "poll": "43%",
+              "stances": [
+                "Foreign policy: Warns Iran could control Strait of Hormuz; former House Intelligence Committee chair with national security credentials",
+                "Healthcare: Calls Medicare for All a 'massive tax increase' that would eliminate private insurance for 180M Americans",
+                "Economy: Describes tariffs as a 'mixed bag' \u2014 supports targeted tariffs but acknowledges auto industry concerns",
+                "Manufacturing: Supports reshoring auto production; wants tax incentives for Michigan factories",
+                "Trade: Backs some tariffs on China but questions broad application; focused on protecting Michigan's auto supply chain",
+                "Immigration: Supports border enforcement and merit-based immigration reform"
+              ],
+              "keyIssue": "Rogers frames the Iran conflict as a national security imperative, leveraging his Intelligence Committee background. He warns about nuclear proliferation risks while opposing single-payer healthcare as unaffordable.",
+              "diff": "Rogers takes a hawkish national security stance vs. El-Sayed's anti-war position. He opposes single-payer healthcare while El-Sayed champions Medicare for All. Rogers calls tariffs a 'mixed bag' while El-Sayed ties them to rising costs.",
+              "negatives": "Lost to Elissa Slotkin in the 2024 Senate race. Trump repeated voter fraud claims about Wayne County with no evidence, complicating Rogers' messaging. Running for the third time statewide.",
+              "partyCore": "A national security Republican \u2014 former FBI agent and House Intelligence chair \u2014 who represents the party's hawkish foreign policy wing and tough-on-crime platform."
+            },
+            {
+              "name": "Abdul El-Sayed",
+              "party": "dem",
+              "role": "Former State Health Official (D-MI)",
+              "poll": "49%",
+              "stances": [
+                "Healthcare: Supports Medicare for All; argues single-payer would cost less than current spending; public health expert background",
+                "Foreign policy: Backs War Powers Resolution to limit Iran conflict; blames war for rising fuel and grocery prices",
+                "Economy: Supports wealth tax on billionaires; wants moratorium on data center expansion until environmental review",
+                "Manufacturing: Opposes broad tariffs that hurt Michigan auto workers; wants targeted trade policy protecting union jobs",
+                "Environment: Proposed 'terms of engagement' framework for data centers; supports aggressive climate action",
+                "Immigration: Progressive on reform; opposes mass deportation; supports pathway to citizenship"
+              ],
+              "keyIssue": "The Iran war's economic impact is the central issue \u2014 El-Sayed ties rising costs directly to the conflict. He argues Medicare for All would actually cost less than the current system, framing healthcare as an economic issue.",
+              "diff": "While Rogers calls Medicare for All a tax hike, El-Sayed argues it would cost less than current spending. Both want the Iran conflict to end but differ sharply on approach \u2014 El-Sayed wants immediate withdrawal while Rogers wants a negotiated end.",
+              "negatives": "Trump accused him of Muslim Brotherhood ties, which El-Sayed denies. Won a divisive Democratic primary that left some moderate voters uncertain. His Medicare for All stance may alienate swing voters.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Abdul El-Sayed",
+            "winnerParty": "dem",
+            "margin": "~7 points"
+          }
+        },
+        {
+          "type": "House",
+          "district": "MI-04",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Bill Huizenga",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-MI)",
+              "poll": null,
+              "stances": [
+                "Long-tenured incumbent in western Michigan",
+                "Conservative fiscal hawk",
+                "Financial services committee member"
+              ],
+              "keyIssue": "Western Michigan suburbs are shifting, putting this once-safe Republican seat in play.",
+              "diff": "Huizenga's long conservative record vs. McCann's fresh-face moderate Democratic appeal.",
+              "negatives": "Has been in Congress since 2011. Some voters are looking for change in the Trump era.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Sean McCann",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Running on suburban quality-of-life issues",
+                "Healthcare and education focus",
+                "Part of Michigan's suburban Democratic shift"
+              ],
+              "keyIssue": "Democrats see western Michigan as the new frontier of the suburban realignment.",
+              "diff": "McCann offers a moderate alternative to Huizenga's solidly conservative record.",
+              "negatives": "Western Michigan has historically been deeply Republican. Must overcome strong partisan headwinds.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Sean McCann",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Jocelyn Benson",
+              "party": "dem",
+              "role": "Secretary of State (D-MI)",
+              "poll": null,
+              "stances": [
+                "Democracy: Defended Michigan's 2020 election integrity against false claims; voting rights champion",
+                "Economy: Supports Michigan's auto industry and manufacturing sector; wants to attract clean energy jobs",
+                "Healthcare: Supports ACA and Medicaid expansion; advocates for affordable healthcare access",
+                "Education: Champions public education and voter education initiatives",
+                "Voting rights: Made voting easier as Secretary of State; expanded absentee voting access",
+                "Criminal justice: Supports reform measures while maintaining public safety"
+              ],
+              "keyIssue": "Michigan's open-seat race tests which party controls a key swing state. Benson's election defense credentials give her a 'democracy' brand, but Duggan's independent run complicates the math.",
+              "diff": "Benson positions as the defender of democracy and voting rights vs. James' business and military background. Duggan's independent run adds a wild card that could draw from either candidate.",
+              "negatives": "Faces a competitive race with both a Republican challenger and an independent spoiler (Mike Duggan). Must consolidate Democratic votes in a three-way race.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            },
+            {
+              "name": "John James",
+              "party": "rep",
+              "role": "U.S. Representative (R-MI)",
+              "poll": null,
+              "stances": [
+                "Military: Army Apache helicopter pilot; served two tours in Iraq; strong veterans' advocacy",
+                "Economy: Business owner focused on job creation; supports manufacturing and supply chain reshoring",
+                "Education: Supports school choice; critical of teachers' union influence",
+                "Healthcare: Opposes ACA mandates; supports market-based healthcare solutions",
+                "National security: Hawks on defense; supports strong military and veterans' services",
+                "Immigration: Supports border enforcement and merit-based immigration system"
+              ],
+              "keyIssue": "James has sought statewide office before \u2014 this is his best shot in a wide-open race. His military and business credentials are his strongest assets in a general election.",
+              "diff": "James brings military and business credentials vs. Benson's elections and governance experience. His helicopter pilot story is compelling but he must overcome his 0-2 statewide record.",
+              "negatives": "Has lost two previous statewide races (Senate 2018, 2020). Mike Duggan's independent run adds uncertainty. Must prove he can win statewide after two failed attempts.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Mike Duggan",
+              "party": "ind",
+              "role": "Former Mayor of Detroit (I)",
+              "poll": null,
+              "stances": [
+                "Detroit revival: Led Detroit's post-bankruptcy recovery; dramatic reduction in blight and crime",
+                "Economy: Pragmatic, results-oriented approach; attracted major corporate investments to Detroit",
+                "Healthcare: Launched innovative health programs in Detroit; supports practical healthcare solutions",
+                "Infrastructure: Rebuilt Detroit's basic services \u2014 streetlights, buses, demolition of abandoned buildings",
+                "Independence: Argues partisan swings hurt Michigan; neither party has all the answers",
+                "Government: Proven executive who managed a major city through its worst crisis"
+              ],
+              "keyIssue": "Duggan is the wild card \u2014 his independent run could reshape this race entirely. His Detroit turnaround record gives him executive credentials that neither major party candidate can match.",
+              "diff": "Uniquely positioned as neither party, arguing both have failed Michigan. His Detroit turnaround record is his pitch \u2014 he did it once and can do it statewide.",
+              "negatives": "Independent candidates rarely win governors' races. Must build infrastructure without party support. Could split the vote and inadvertently help the candidate he draws more from.",
+              "partyCore": "Runs as an independent, rejecting both major parties' platforms in favor of pragmatic, issue-by-issue governance."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Jocelyn Benson",
+            "winnerParty": "dem"
+          }
+        }
+      ]
+    },
+    "Minnesota": {
+      "abbr": "MN",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Peggy Flanagan",
+              "party": "dem",
+              "role": "Lieutenant Governor, Democratic Nominee (D-MN)",
+              "poll": null,
+              "stances": [
+                "Healthcare: Argues drug companies should lower prices across all medications, not just the 10 covered by federal action",
+                "Economy: Points to her record helping raise Minnesota's minimum wage and pass paid family leave",
+                "Education: Strong advocate for public education funding; former education nonprofit leader",
+                "Native issues: First Native American woman elected to statewide executive office; White Earth Band of Ojibwe member",
+                "Labor: Championed paid family leave legislation; supports union protections and worker organizing rights",
+                "Social issues: Progressive on LGBTQ+ rights and reproductive freedom; defended Minnesota as a 'trans refuge' state"
+              ],
+              "keyIssue": "Flanagan's historic candidacy as the first Native American woman to run for U.S. Senate brings national attention. Her executive experience and record on wages and paid leave anchor her economic message.",
+              "diff": "Flanagan brings proven executive experience and a track record on wages and healthcare costs. Tafoya brings celebrity name recognition and cultural conservative messaging \u2014 a clash of governing credentials vs. outsider energy.",
+              "negatives": "Minnesota has been trending more competitive for Republicans. Must energize the Democratic base while appealing to suburban moderates. Tina Smith's decision not to run left the seat open.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            },
+            {
+              "name": "Michele Tafoya",
+              "party": "rep",
+              "role": "Former Sports Broadcaster, Republican Nominee",
+              "poll": null,
+              "stances": [
+                "Education: Outspoken critic of gender identity policies in schools; opposes what she calls 'indoctrination' in curriculum",
+                "Culture: Conservative on transgender athlete policies; vocal critic of DEI programs in corporations and government",
+                "Economy: Supports tax cuts and deregulation; outsider message against career politicians",
+                "Immigration: Supports border enforcement and opposes sanctuary city policies",
+                "Crime: Law-and-order messaging; critical of progressive criminal justice reform",
+                "Media: Leverages her media background to argue she understands how information shapes public opinion"
+              ],
+              "keyIssue": "Tafoya's celebrity name recognition and outspoken cultural conservatism have made this race surprisingly competitive. She runs as the anti-establishment outsider against the political class.",
+              "diff": "Tafoya runs as the cultural warrior outsider focused on education and gender policies, while Flanagan campaigns as the experienced leader with a governing record on wages and healthcare.",
+              "negatives": "No governing experience. Her cultural-warrior positioning may be too conservative for Minnesota's moderate electorate. Won a contested primary with only 51.8% of the vote.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Peggy Flanagan",
+            "winnerParty": "dem"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Likely D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Amy Klobuchar",
+              "party": "dem",
+              "role": "U.S. Senator (D-MN)"
+            },
+            {
+              "name": "Lisa Demuth",
+              "party": "rep",
+              "role": "State Representative (R-MN)"
+            }
+          ]
+        }
+      ]
+    },
+    "Mississippi": {
+      "abbr": "MS",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Likely R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Cindy Hyde-Smith",
+              "party": "rep",
+              "role": "U.S. Senator, Incumbent (R-MS)"
+            },
+            {
+              "name": "Scott Colom",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Scott Colom",
+            "winnerParty": "dem",
+            "margin": "4,669 votes",
+            "note": "Flip: R to D. Upset win."
+          }
+        }
+      ]
+    },
+    "Montana": {
+      "abbr": "MT",
+      "races": [
+        {
+          "type": "House",
+          "district": "MT-01",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Aaron Flint",
+              "party": "rep",
+              "role": "Republican Nominee",
+              "poll": null,
+              "stances": [
+                "Conservative media personality",
+                "Running for open seat",
+                "Pro-gun, pro-energy platform"
+              ],
+              "keyIssue": "Ryan Zinke's departure creates an open-seat opportunity, though the district leans Republican.",
+              "diff": "Flint's media background vs. Forstag's community-focused campaign.",
+              "negatives": "Political newcomer without governing experience.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Sam Forstag",
+              "party": "dem",
+              "role": "Democratic Nominee",
+              "poll": null,
+              "stances": [
+                "Community-focused campaign",
+                "Public lands and outdoor recreation advocate",
+                "Running in open-seat opportunity"
+              ],
+              "keyIssue": "Democrats hope the open seat and Montana's independent voters create an upset opportunity.",
+              "diff": "Forstag appeals to Montana's outdoor recreation community while Flint targets the conservative base.",
+              "negatives": "Montana's western district is solidly Republican. Democrats haven't won here in a decade.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Sam Forstag",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Likely R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Kurt Alme",
+              "party": "rep",
+              "role": "Former U.S. Attorney, Republican Nominee",
+              "poll": null,
+              "stances": [
+                "Law enforcement: Former U.S. Attorney with federal prosecution experience; tough-on-crime positioning",
+                "Energy: Pro-energy development; supports Montana's coal, oil, and gas industries",
+                "Public lands: Supports access to public lands while backing responsible energy development",
+                "Economy: Pro-business conservative; wants to reduce federal regulation on Montana businesses",
+                "Guns: Strong Second Amendment supporter; opposes new gun restrictions",
+                "Immigration: Supports border enforcement; aligns with Republican immigration platform"
+              ],
+              "keyIssue": "Montana's open Senate seat leans heavily Republican, but Democrats hope to keep the race competitive enough to force Republican spending here rather than in closer states.",
+              "diff": "Alme benefits from Montana's strong Republican lean and his law enforcement background, while Bankhead tries to appeal to Montana's independent streak with a focus on public lands and rural issues.",
+              "negatives": "Must consolidate a Republican primary field in a state where independents are influential. His establishment profile may not excite the populist wing of the party.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Alani Bankhead",
+              "party": "dem",
+              "role": "Democratic Nominee",
+              "poll": null,
+              "stances": [
+                "Public lands: Strong advocate for protecting Montana's public lands and outdoor recreation economy",
+                "Rural issues: Focused on healthcare access, broadband, and economic opportunity in rural Montana",
+                "Healthcare: Supports expanding healthcare access; opposes cuts to rural hospital funding",
+                "Economy: Champions small businesses and agricultural communities over corporate interests",
+                "Environment: Supports responsible energy development alongside conservation of Montana's natural resources",
+                "Education: Advocates for rural school funding and access to higher education"
+              ],
+              "keyIssue": "Democrats are investing minimally here but want to keep Republicans spending in Montana. Bankhead's public lands message resonates with Montana's outdoor recreation community.",
+              "diff": "Bankhead tries to appeal to Montana's independent streak with a focus on public lands and rural healthcare, while Alme runs as the safe conservative choice backed by the party establishment.",
+              "negatives": "Montana is one of the most Republican states. Jon Tester's loss in 2024 showed the limits of Democratic crossover appeal. Massive uphill battle in a state Trump won by 16+ points.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Kurt Alme",
+            "winnerParty": "rep"
+          }
+        }
+      ]
+    },
+    "Nebraska": {
+      "abbr": "NE",
+      "races": [
+        {
+          "type": "House",
+          "district": "NE-02",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Don Bacon",
+              "party": "rep",
+              "role": "U.S. Representative, Retiring (R-NE)",
+              "poll": null,
+              "stances": [
+                "Moderate Republican in Omaha-area district",
+                "Retiring, leaving an open seat",
+                "Military veteran background"
+              ],
+              "keyIssue": "Bacon's retirement opens up this Biden-won Omaha district, making it a top Democratic target.",
+              "diff": "Without Bacon's personal moderate brand, the Republican nominee faces a much tougher race.",
+              "negatives": "Retiring \u2014 the open seat disadvantages Republicans.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "TBD",
+              "party": "dem",
+              "role": "Democratic Nominee",
+              "poll": null,
+              "stances": [
+                "Running in Biden-won Omaha district",
+                "Open seat opportunity",
+                "Focused on suburban economic issues"
+              ],
+              "keyIssue": "NE-02 went for Biden in 2020 and is a top Democratic pickup with Bacon gone.",
+              "diff": "Democrats have a structural advantage in this open seat that Biden carried.",
+              "negatives": "Must still compete in a district that has a history of split-ticket voting.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Denise Powell",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Likely R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Pete Ricketts",
+              "party": "rep",
+              "role": "U.S. Senator, Appointed (R-NE)",
+              "poll": "47%",
+              "stances": [
+                "Economy: Former governor who led pro-business agenda; strong Republican donor network; anti-regulation platform",
+                "Agriculture: Supports Nebraska's agricultural industry but faces criticism on trade policy impacts",
+                "Immigration: Hardline border enforcement; supported aggressive deportation measures as governor",
+                "Taxes: Pushed major tax reform as governor; wants to eliminate state income tax; supports federal tax cuts",
+                "Social issues: Conservative on abortion; supported Nebraska's 12-week abortion ban",
+                "Defense: Strong military support; Nebraska hosts major military installations"
+              ],
+              "keyIssue": "Ricketts was appointed and faces Dan Osborn's unconventional nonpartisan challenge. Osborn's 2024 near-upset against Deb Fischer proved Nebraska's appetite for working-class populism is real.",
+              "diff": "Ricketts represents the Republican establishment and billionaire class while Osborn runs as a working-class populist with no party label. The contrast between Ricketts' wealth and Osborn's union background is stark.",
+              "negatives": "Was appointed, not elected. Osborn's 2024 near-upset proved he's vulnerable. His billionaire background creates an authenticity gap with working-class voters.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Dan Osborn",
+              "party": "ind",
+              "role": "Union Leader, Nonpartisan",
+              "poll": "43%",
+              "stances": [
+                "Labor: Union president who led Kellogg's strike; champions worker organizing rights and fair wages",
+                "Economy: Working-class populist opposing corporate consolidation; anti-establishment economic message",
+                "Healthcare: Supports lowering prescription drug costs and protecting Social Security and Medicare",
+                "Trade: Opposes trade deals that hurt American workers; critical of both parties' trade policies",
+                "Government reform: Rejects party labels; campaigns on ending political corruption and corporate influence",
+                "Agriculture: Supports family farmers over corporate agriculture; critical of consolidation in meatpacking industry"
+              ],
+              "keyIssue": "Osborn's nonpartisan populist campaign defies conventional Nebraska politics. His Kellogg's strike leadership gives him authentic working-class credentials that neither party's typical candidate can match.",
+              "diff": "Osborn's working-class credentials and rejection of party politics contrast sharply with Ricketts' billionaire establishment brand. He draws support from both disaffected Democrats and anti-establishment Republicans.",
+              "negatives": "Running without party infrastructure or major party support. Must build a coalition from scratch. The national Democratic Party may not support him, leaving him without institutional backing.",
+              "partyCore": "Runs as an independent, rejecting both major parties' platforms in favor of pragmatic, issue-by-issue governance."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Pete Ricketts",
+            "winnerParty": "rep"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Jim Pillen",
+              "party": "rep",
+              "role": "Governor, Incumbent (R-NE)"
+            },
+            {
+              "name": "Lynne Walz",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Nevada": {
+      "abbr": "NV",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Joe Lombardo",
+              "party": "rep",
+              "role": "Governor, Incumbent (R-NV)",
+              "poll": null,
+              "stances": [
+                "Crime: Former Clark County Sheriff; built reputation on public safety and reducing violent crime",
+                "Economy: Attracted business investment to Nevada; supports diversifying beyond tourism and gaming",
+                "Education: Pushed for education reforms including opportunity scholarships (vouchers)",
+                "Immigration: Moderate on enforcement; deployed National Guard to border but avoids hardline rhetoric",
+                "Healthcare: Pragmatic on Medicaid; hasn't pushed to cut coverage despite Republican pressure",
+                "Water: Addressing Nevada's water crisis through conservation and infrastructure investment"
+              ],
+              "keyIssue": "Lombardo must defend his record in one of the most evenly divided states. His moderate positioning and law enforcement background anchor his reelection bid.",
+              "diff": "Lombardo's law enforcement background and pragmatic governing vs. Ford's legal expertise and progressive criminal justice credentials. Both claim the crime issue from opposite directions.",
+              "negatives": "Won by a narrow margin in 2022. Nevada is extremely competitive and turnout-dependent. His moderate positioning frustrates both the conservative base and progressive critics.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Aaron Ford",
+              "party": "dem",
+              "role": "Attorney General (D-NV)",
+              "poll": null,
+              "stances": [
+                "Criminal justice: First Black AG in Nevada history; championed reform while maintaining public safety",
+                "Economy: Focused on economic opportunity for Nevada's diverse communities; supports union protections",
+                "Healthcare: Supports expanding healthcare access; led legal challenges to drug pricing",
+                "Housing: Focused on affordable housing crisis in Las Vegas metro; supports tenant protections",
+                "Voting rights: Championed voting access expansion as AG; opposes restrictive voting laws",
+                "Education: Supports public education funding; opposes school voucher programs"
+              ],
+              "keyIssue": "Ford's statewide profile and Clark County base position him as a formidable challenger. His legal background gives him credibility on both criminal justice and consumer protection issues.",
+              "diff": "Ford brings legal expertise and progressive credentials vs. Lombardo's law enforcement background. Both claim the crime issue \u2014 Ford from a reform angle, Lombardo from a law-and-order angle.",
+              "negatives": "Must overcome incumbency advantage in a state where turnout is notoriously unpredictable. His progressive positioning may not resonate with Nevada's moderate swing voters.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Aaron Ford",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        }
+      ]
+    },
+    "New Hampshire": {
+      "abbr": "NH",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "John E. Sununu",
+              "party": "rep",
+              "role": "Former U.S. Senator (R-NH)",
+              "poll": "43%",
+              "stances": [
+                "Economy: Fiscally conservative; supports balanced budgets and reducing federal spending; opposes new taxes",
+                "Healthcare: Moderate on ACA \u2014 voted for some reforms but opposed full repeal without replacement",
+                "Immigration: Supports border security with legal immigration reform; pragmatic rather than hardline approach",
+                "Social issues: Socially moderate by Republican standards; represents New Hampshire's 'Live Free or Die' tradition",
+                "Defense: Hawkish on foreign policy; supports strong military but questions scope of executive war powers",
+                "Trade: Free-trade oriented; skeptical of broad tariffs; concerned about impact on New Hampshire businesses"
+              ],
+              "keyIssue": "Sununu vs. Pappas tests whether the Sununu family name still carries weight in New Hampshire. His comeback bid relies on moderate positioning in a state that prizes independence over partisanship.",
+              "diff": "Sununu's Senate experience and family name give him institutional credibility while Pappas brings a current governing track record and proven ability to win competitive races repeatedly.",
+              "negatives": "Lost his Senate seat in 2008 during the Obama wave. Must prove he can win in a dramatically changed political environment. His 18-year absence from the Senate raises relevance questions.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Chris Pappas",
+              "party": "dem",
+              "role": "U.S. Representative (D-NH)",
+              "poll": "50%",
+              "stances": [
+                "Economy: Small business owner; focuses on kitchen-table economic issues; supports targeted tax relief for working families",
+                "Healthcare: Supports ACA expansion and lowering prescription drug costs; opposes Medicaid cuts",
+                "Immigration: Moderate on border policy; supports comprehensive reform with a pathway to citizenship",
+                "Bipartisanship: Has repeatedly won in a competitive House district by working across the aisle",
+                "Veterans: Strong veterans' affairs record; district includes major VA facilities",
+                "Trade: Opposes broad tariffs; supports protecting New Hampshire's small businesses from trade disruption"
+              ],
+              "keyIssue": "Pappas has repeatedly won in a competitive House district, proving his crossover appeal. His small-business background and moderate positioning match New Hampshire's independent-minded electorate.",
+              "diff": "Pappas brings current governing experience and a proven track record of winning swing voters, while Sununu relies on his family's political legacy and a return to pragmatic Republican governance.",
+              "negatives": "Moving from House to Senate is a different race with different dynamics. Must expand his base beyond his House district to the entire state. Less name recognition statewide than Sununu.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Chris Pappas",
+            "winnerParty": "dem"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Kelly Ayotte",
+              "party": "rep",
+              "role": "Governor, Incumbent (R-NH)",
+              "poll": null,
+              "stances": [
+                "Taxes: Focused on property tax relief \u2014 New Hampshire's most pressing fiscal issue",
+                "Education: Supports school choice and expanded educational options for families",
+                "Economy: Pro-business; supports New Hampshire's no-income-tax, no-sales-tax model",
+                "Healthcare: Moderate on ACA; pragmatic about Medicaid without pushing expansion",
+                "Social issues: Moderate Republican by national standards; represents NH's 'Live Free or Die' tradition",
+                "Bipartisanship: Former U.S. Senator known for working across the aisle"
+              ],
+              "keyIssue": "Ayotte won narrowly in 2024 and must defend in a swing state with high voter engagement. Property taxes and cost of living are the dominant issues for New Hampshire voters.",
+              "diff": "Ayotte's incumbency and moderate brand vs. Warmington's progressive energy and healthcare-focused grassroots campaign. Both compete for the same moderate suburban voters.",
+              "negatives": "Won 2024 by a narrow margin. New Hampshire is unpredictable in midterm environments. Her Republican brand may be a liability in anti-Trump wave years.",
+              "partyCore": "A former senator and AG who represents the establishment Republican brand: tough on crime, fiscally disciplined, and focused on economic competitiveness and education reform."
+            },
+            {
+              "name": "Cinde Warmington",
+              "party": "dem",
+              "role": "Executive Councilor (D-NH)",
+              "poll": null,
+              "stances": [
+                "Healthcare: Strong healthcare advocate on Executive Council; focused on lowering costs and expanding access",
+                "Housing: Champions affordable housing development in New Hampshire's tight housing market",
+                "Education: Supports public school funding; critical of school voucher proposals",
+                "Economy: Focuses on cost of living and economic opportunity for working families",
+                "Reproductive rights: Supports abortion access; opposes restrictions on reproductive healthcare",
+                "Environment: Supports clean energy development and environmental protection"
+              ],
+              "keyIssue": "Warmington hopes anti-Trump energy and healthcare concerns drive turnout in her favor. Her Executive Council position gives her statewide governing experience and credibility.",
+              "diff": "Warmington's healthcare-focused progressive approach contrasts with Ayotte's establishment moderate positioning. Both are credible statewide figures competing for the same swing voters.",
+              "negatives": "Running against an incumbent with strong name recognition and a moderate brand. Must overcome Ayotte's bipartisan credentials in a state that values independence.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Kelly Ayotte",
+            "winnerParty": "rep"
+          }
+        }
+      ]
+    },
+    "New Jersey": {
+      "abbr": "NJ",
+      "races": [
+        {
+          "type": "House",
+          "district": "NJ-07",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Tom Kean Jr.",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-NJ)",
+              "poll": null,
+              "stances": [
+                "Taxes: Championed the SALT deduction cap repeal to lower tax burden on NJ families; opposes broad tax increases",
+                "Public safety: Supports increased funding for local police departments and tougher penalties for violent crime",
+                "Economy: Focused on reducing inflation and cutting government spending; voted against large spending packages",
+                "Immigration: Supports stronger border security measures while backing legal immigration pathways for workers",
+                "Environment: Moderate on climate; supports clean energy investment but opposes regulations he sees as too costly for businesses",
+                "Education: Supports parental involvement in curriculum decisions and expanded school choice options"
+              ],
+              "keyIssue": "The SALT deduction cap hits NJ-07 families hard. Kean has made repealing it his signature issue, tying Republican tax policy directly to local pocketbook concerns.",
+              "diff": "Kean positions himself as a fiscal conservative focused on tax relief and public safety, while Bennett pushes for broader government investment in healthcare, education, and reproductive rights.",
+              "negatives": "Faces the challenge of running as a Republican in a state trending blue. His moderate positioning frustrates the party base while Democrats tie him to the national GOP agenda.",
+              "partyCore": "A moderate suburban Republican who runs on the GOP's fiscal platform \u2014 lower taxes, less spending, tougher law enforcement \u2014 while softening the party's edges on environment and social issues to hold a swing district in deep-blue New Jersey."
+            },
+            {
+              "name": "Rebecca Bennett",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Reproductive rights: Strongly pro-choice; has made defending abortion access a centerpiece of her campaign",
+                "Healthcare: Supports expanding the ACA, lowering prescription drug costs, and protecting coverage for pre-existing conditions",
+                "Gun safety: Advocates for universal background checks, red flag laws, and an assault weapons ban",
+                "Education: Supports increased federal funding for public schools and expanding access to Pre-K programs",
+                "Climate: Backs aggressive clean energy investment and rejoining international climate agreements",
+                "Economy: Focuses on closing the wealth gap through higher minimum wage, paid family leave, and corporate tax reform"
+              ],
+              "keyIssue": "Reproductive rights are the driving issue. Bennett frames the race as a referendum on abortion access, energizing suburban women voters who swung this district in recent cycles.",
+              "diff": "Bennett wants government to play an active role in healthcare, gun safety, and climate \u2014 contrasting sharply with Kean's preference for tax cuts, deregulation, and letting markets lead.",
+              "negatives": "As a challenger, she lacks Kean's name recognition and incumbency advantages. Must convince voters that national Democratic priorities align with this district's moderate character.",
+              "partyCore": "Runs on the core Democratic platform of protecting reproductive freedom, expanding healthcare access, and enacting gun safety legislation \u2014 positioning these issues as kitchen-table concerns for NJ suburban families."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Rebecca Bennett",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Cory Booker",
+              "party": "dem",
+              "role": "U.S. Senator, Incumbent (D-NJ)"
+            },
+            {
+              "name": "Justin Murphy",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "New Mexico": {
+      "abbr": "NM",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Likely D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Deb Haaland",
+              "party": "dem",
+              "role": "Former U.S. Interior Secretary"
+            },
+            {
+              "name": "Gregg Hull",
+              "party": "rep",
+              "role": "Rio Rancho Mayor"
+            }
+          ]
+        },
+        {
+          "type": "Senate",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Ben Ray Luj\u00e1n",
+              "party": "dem",
+              "role": "U.S. Senator, Incumbent (D-NM)"
+            },
+            {
+              "name": "Larry Marker",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "New York": {
+      "abbr": "NY",
+      "races": [
+        {
+          "type": "House",
+          "district": "NY-17",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Mike Lawler",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-NY)",
+              "poll": null,
+              "stances": [
+                "Presents himself as one of the most bipartisan House members; works across the aisle on key votes",
+                "Represents a swing district Harris won narrowly in 2024",
+                "Focuses on local issues \u2014 taxes, infrastructure \u2014 over national party agenda",
+                "Moderate on healthcare; voted to protect pre-existing conditions",
+                "Broke with Republicans on some environmental votes",
+                "Supports immigration reform but opposes hardline deportation-only approach"
+              ],
+              "keyIssue": "Can a moderate Republican hold a district Harris won? Lawler's brand depends on bipartisan credibility, but every national controversy tests that positioning.",
+              "diff": "Lawler leans on his moderate voting record and bipartisan deals while Conley emphasizes her military service and argues Lawler is ultimately beholden to Republican leadership.",
+              "negatives": "Faces pressure from both sides \u2014 too moderate for the GOP base, tied to the Republican brand for swing voters. Walking this tightrope becomes harder in polarized midterms.",
+              "partyCore": "A moderate Republican who represents the suburban swing-district model: fiscally conservative, focused on local issues like taxes and public safety, and distancing from MAGA extremes."
+            },
+            {
+              "name": "Cait Conley",
+              "party": "dem",
+              "role": "Army Combat Veteran (D-NY)",
+              "poll": null,
+              "stances": [
+                "Army combat veteran with national security credentials that neutralize the Republican security advantage",
+                "Former senior DHS cybersecurity official; brings government experience",
+                "Runs on healthcare, education, and infrastructure for the Hudson Valley",
+                "Supports reproductive rights and gun safety measures",
+                "Focuses on veterans' issues and military family support",
+                "Argues Lawler's moderate image masks a fundamentally Republican voting pattern"
+              ],
+              "keyIssue": "Conley's military credentials aim to neutralize the Republican advantage on security issues. Her DHS background gives her credibility on both defense and domestic policy.",
+              "diff": "Conley positions as the true independent voice with real-world military experience vs. Lawler's political moderatism. She argues his bipartisan brand is performative.",
+              "negatives": "First-time candidate challenging a well-liked incumbent. Must overcome Lawler's strong constituent service reputation and bipartisan brand.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Cait Conley",
+            "winnerParty": "dem",
+            "note": "Flip: R to D. Lawler ousted."
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Likely D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Kathy Hochul",
+              "party": "dem",
+              "role": "Governor, Incumbent (D-NY)"
+            },
+            {
+              "name": "Bruce Blakeman",
+              "party": "rep",
+              "role": "Nassau County Executive"
+            }
+          ]
+        }
+      ]
+    },
+    "North Carolina": {
+      "abbr": "NC",
+      "races": [
+        {
+          "type": "House",
+          "district": "NC-01",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Don Davis",
+              "party": "dem",
+              "role": "U.S. Representative, Incumbent (D-NC)",
+              "poll": null,
+              "stances": [
+                "Moderate Democrat in eastern North Carolina",
+                "Focused on military and agriculture issues",
+                "One of few Democrats in a Trump-won district"
+              ],
+              "keyIssue": "Republicans redrew this district to be more conservative, threatening Davis' reelection.",
+              "diff": "Davis' moderate incumbency record vs. Buckhout's military background in a redrawn district.",
+              "negatives": "District was redrawn to be more Republican. His moderate record may not be enough in the new lines.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            },
+            {
+              "name": "Laurie Buckhout",
+              "party": "rep",
+              "role": "Republican Challenger",
+              "poll": null,
+              "stances": [
+                "Military veteran challenger",
+                "Running in redrawn, more favorable district",
+                "Conservative platform"
+              ],
+              "keyIssue": "Republicans heavily invested in this race after redistricting made the district more competitive.",
+              "diff": "Buckhout's military credentials and the new district lines give her a structural advantage.",
+              "negatives": "Must still beat an entrenched incumbent with strong local ties.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Don Davis",
+            "winnerParty": "dem"
+          }
+        },
+        {
+          "type": "House",
+          "district": "NC-11",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Jennifer Balkcom",
+              "party": "rep",
+              "role": "Republican Nominee",
+              "poll": null,
+              "stances": [
+                "Running after Chuck Edwards ended his reelection campaign",
+                "Western North Carolina district",
+                "Conservative platform"
+              ],
+              "keyIssue": "Edwards' surprise exit created chaos in this western NC district, giving Democrats an unexpected opening.",
+              "diff": "Balkcom must build name recognition quickly while Ager has been campaigning longer.",
+              "negatives": "Late entry into the race after Edwards dropped out. Less time to build a campaign infrastructure.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Jamie Ager",
+              "party": "dem",
+              "role": "Democratic Nominee",
+              "poll": null,
+              "stances": [
+                "Local farmer and community leader",
+                "Focused on rural economic issues",
+                "Benefiting from Republican disarray"
+              ],
+              "keyIssue": "The Republican incumbent's exit makes this traditionally safe Republican seat suddenly competitive.",
+              "diff": "Ager's local roots and longer campaign vs. Balkcom's late start and Republican brand advantage.",
+              "negatives": "Western North Carolina is historically conservative. Must overcome significant partisan headwinds.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Jamie Ager",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Likely D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Roy Cooper",
+              "party": "dem",
+              "role": "Former Governor (D-NC)",
+              "poll": "54%",
+              "stances": [
+                "Economy: Made affordability his campaign centerpiece with a 'make stuff cost less' tour; opposes Trump tariffs and war spending",
+                "Healthcare: Would reverse Trump's Medicaid cuts; expanded Medicaid as governor under difficult GOP legislature",
+                "Environment: As governor, pushed Chemours to clean up PFAS contamination in southeastern NC; strong environmental record",
+                "Disaster relief: Extensive hurricane response experience as governor; opposes abolishing FEMA",
+                "Education: Invested in public schools and teacher pay as governor; opposes school voucher programs",
+                "Crime: Criticized Trump's $1.8B fund to pay supporters convicted of crimes including Jan. 6 rioters"
+              ],
+              "keyIssue": "Cooper is rated as Democrats' best chance to flip a Republican seat. His 'make stuff cost less' message ties tariffs and war spending directly to voters' grocery bills, leveraging his executive credibility.",
+              "diff": "Cooper brings proven executive experience and high approval ratings from his tenure as governor. His affordability message and Medicaid expansion record contrast sharply with Whatley's party-insider profile.",
+              "negatives": "Must overcome North Carolina's recent rightward trend at the federal level. Trump carried the state in 2024. Some progressives want a bolder agenda than Cooper's moderate approach.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            },
+            {
+              "name": "Michael Whatley",
+              "party": "rep",
+              "role": "Former RNC Chair (R-NC)",
+              "poll": "40%",
+              "stances": [
+                "Economy: Wants to keep voters' tax burden low but hasn't detailed specific proposals; embraces Trump's tariff policies",
+                "Disaster relief: Suggested Trump abolish FEMA; prefers federal block grants to states for disaster response",
+                "Crime: Approves of Trump's $1.8B fund for convicted supporters including Jan. 6 rioters",
+                "Immigration: Strong border enforcement; aligned with Trump's deportation agenda",
+                "Environment: Chemours donated $5,000 to his campaign; has not stated position on PFAS cleanup",
+                "Education: Supports school choice and voucher programs"
+              ],
+              "keyIssue": "Whatley's FEMA abolition stance is a major liability in hurricane-prone North Carolina. His tenure as RNC chair ties him to national Republican controversies rather than state-level governance.",
+              "diff": "Whatley is a party operative vs. Cooper's governing experience. His RNC background is both an asset (organizational power) and a liability (seen as a Washington insider in a change election).",
+              "negatives": "Lacks the personal popularity of Cooper. His call to abolish FEMA is toxic in a state devastated by recent hurricanes. Chemours donations create an environmental vulnerability. Few specific policy proposals.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Roy Cooper",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        }
+      ]
+    },
+    "Ohio": {
+      "abbr": "OH",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Jon Husted",
+              "party": "rep",
+              "role": "U.S. Senator, Appointed (R-OH)",
+              "poll": "44%",
+              "stances": [
+                "Economy: Voted to cut USAID foreign aid and NPR/PBS funding; supports 'cutting bureaucratic red tape'; pro-deregulation",
+                "Healthcare: Voted to cut Medicaid and against extending ACA tax credits; calls ACA 'dysfunctional'",
+                "Immigration: Supports increased ICE funding ($75B); praised ICE agents; strong border enforcement advocate",
+                "Guns: Sponsored concealed carry across state lines; says gun laws are not the solution to mass shootings",
+                "Climate: Voted to end clean energy tax credits; supports repealing EPA greenhouse gas standards for coal plants; loosening mining rules",
+                "Foreign policy: Voted against requiring congressional authorization for Iran military action; supports the president's 'decisive action'"
+              ],
+              "keyIssue": "Husted must prove he deserves the seat he was appointed to. His votes to cut Medicaid and end clean energy credits are central attack points, while he frames himself as a deregulation champion.",
+              "diff": "Husted supports broad deregulation and Medicaid cuts while Brown champions union jobs and healthcare expansion. On guns, Husted wants national concealed carry; Brown wants an assault weapons ban. Their climate positions are polar opposites.",
+              "negatives": "Was appointed rather than elected, which opponents frame as undemocratic. His Medicaid cuts vote is deeply unpopular in Ohio. His anti-clean-energy stance alienates suburban voters concerned about climate.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Sherrod Brown",
+              "party": "dem",
+              "role": "Former U.S. Senator (D-OH)",
+              "poll": "48%",
+              "stances": [
+                "Economy: Working-class populist who voted for $1T in infrastructure; eased regulations to boost semiconductor chip industry in Ohio",
+                "Healthcare: Supports ACA; voted to cap Medicare out-of-pocket costs; sponsored $35 insulin cap; supports drug price negotiation",
+                "Immigration: Wants to strengthen the border and add agents; supports path to citizenship for DACA recipients; opposes 'targeting innocent families'",
+                "Guns: Sponsored assault weapons ban; voted to expand background checks and encourage red flag laws",
+                "Climate: Supports clean energy investment ($369B in tax credits) but opposed EPA limits on coal plant emissions, calling them 'unrealistic'",
+                "Foreign policy: Opposes Iran war, says it costs Ohio taxpayers $45M/day and puts the country's 'safety and security at risk'"
+              ],
+              "keyIssue": "Brown is betting his working-class appeal can overcome Ohio's red shift. His populist message on manufacturing jobs and healthcare costs aims to rebuild the blue-collar coalition that once made Ohio a swing state.",
+              "diff": "Brown is the blue-collar populist vs. Husted's establishment approach. Brown supports an assault weapons ban and ACA expansion while Husted wants national concealed carry and Medicaid cuts. Brown uniquely opposes both the Iran war AND strict EPA coal rules.",
+              "negatives": "Lost his seat in 2024 in a state trending heavily Republican. Ohio has moved 10+ points to the right since 2012. Must overcome the state's strong Republican lean in a comeback bid.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Sherrod Brown",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Vivek Ramaswamy",
+              "party": "rep",
+              "role": "2024 GOP Presidential Candidate (R)",
+              "poll": "45%",
+              "stances": [
+                "Economy: Pro-business, anti-regulation; wants to eliminate bureaucratic barriers to economic growth",
+                "Education: Strongly opposes DEI programs; supports school choice and parental rights",
+                "Government: Former DOGE figure who supports dramatic federal spending cuts and agency restructuring",
+                "Immigration: Hardline on enforcement; supports ending birthright citizenship",
+                "Culture: Vocal opponent of 'woke' ideology in government, corporations, and education",
+                "Energy: Supports domestic energy production; opposes climate regulations that increase costs"
+              ],
+              "keyIssue": "Can Ramaswamy's national celebrity and business credentials translate to state governance? His DOGE background and cultural warrior persona energize the base but face questions about governing competence.",
+              "diff": "Ramaswamy brings celebrity, business credentials, and culture-war energy while Acton brings public health expertise, governing experience, and a competence-over-celebrity message.",
+              "negatives": "Briefly worked with DOGE before departing under unclear circumstances. Some voters see him as a carpetbagger using Ohio as a stepping stone for national ambitions. No governing experience.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Amy Acton",
+              "party": "dem",
+              "role": "Former Ohio Health Director (D)",
+              "poll": "46%",
+              "stances": [
+                "Healthcare: Led Ohio's pandemic response; public health expert advocating for expanded healthcare access",
+                "Economy: Supports workforce development and job training; focuses on rebuilding Ohio's middle class",
+                "Education: Champions early childhood education and public school funding; opposes voucher expansion",
+                "Environment: Supports clean energy transition while protecting jobs; wants accountability for environmental contamination",
+                "Government: Argues Ohio needs competent, evidence-based governance over celebrity politics",
+                "Social issues: Supports reproductive rights; opposes Ohio's restrictive abortion legislation"
+              ],
+              "keyIssue": "Acton's public health background is her calling card \u2014 she argues Ohio needs competent governance over celebrity. Her pandemic leadership earned both fierce loyalty and fierce opposition.",
+              "diff": "Acton is the policy expert vs. Ramaswamy's businessman-celebrity brand. She focuses on healthcare and competence; he on deregulation and cultural warfare. The race is a referendum on governing style.",
+              "negatives": "Ohio has trended heavily Republican. Her pandemic-era health orders drew fierce conservative opposition and death threats. Must overcome the state's rightward lean in a comeback bid.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Amy Acton",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        }
+      ]
+    },
+    "Oklahoma": {
+      "abbr": "OK",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Likely R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Mike Mazzei",
+              "party": "rep",
+              "role": "Former State Senator (R-OK)"
+            },
+            {
+              "name": "Cindy Munson",
+              "party": "dem",
+              "role": "House Minority Leader (D-OK)"
+            }
+          ]
+        },
+        {
+          "type": "Senate",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Kevin Hern",
+              "party": "rep",
+              "role": "U.S. Representative (R-OK)"
+            },
+            {
+              "name": "N'Kiyla Thomas",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Oregon": {
+      "abbr": "OR",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Tina Kotek",
+              "party": "dem",
+              "role": "Governor, Incumbent (D-OR)",
+              "poll": null,
+              "stances": [
+                "Housing: Made homelessness her top priority; invested in shelter capacity and affordable housing",
+                "Healthcare: Expanded behavioral health services; supports universal healthcare coverage",
+                "Climate: Aggressive climate action including emission reduction targets; supports clean energy transition",
+                "Education: Championed education funding and teacher retention; expanded early childhood programs",
+                "Economy: Supports workers' rights and minimum wage increases; attracted tech investment to Oregon",
+                "Criminal justice: Balanced approach between reform and public safety; signed fentanyl recriminalization"
+              ],
+              "keyIssue": "Kotek won narrowly in 2022 and faces voter frustration over homelessness and Portland's challenges. Her homelessness investments are starting to show results but public patience is thin.",
+              "diff": "Kotek defends her progressive record and homelessness investments while Drazan returns for a rematch, this time with more moderate positioning focused on quality-of-life issues.",
+              "negatives": "Won 2022 by a narrow margin in a three-way race. Voter frustration with homelessness and Portland's challenges could hurt her. Some voters want faster results on her signature issue.",
+              "partyCore": "Runs on the progressive Democratic platform: housing investment, climate action, and expanding social services \u2014 believing government should actively address systemic challenges."
+            },
+            {
+              "name": "Christine Drazan",
+              "party": "rep",
+              "role": "Former House Minority Leader (R-OR)",
+              "poll": null,
+              "stances": [
+                "Crime: Focuses on public safety and drug enforcement; critical of Portland's progressive policies",
+                "Homelessness: Argues Kotek's approach has failed; wants tougher enforcement and accountability",
+                "Economy: Pro-business positioning; opposes regulations she says drive businesses out of Oregon",
+                "Education: Supports school choice; critical of teachers' union influence on education policy",
+                "Taxes: Opposes tax increases; wants to reduce Oregon's tax burden on businesses and families",
+                "Government: Argues for a more moderate, business-friendly approach to state government"
+              ],
+              "keyIssue": "Drazan lost narrowly in 2022's three-way race and believes a two-way race is more favorable. She hammers quality-of-life issues where voter frustration with the status quo is highest.",
+              "diff": "Drazan focuses on quality-of-life issues \u2014 crime, homelessness, cost of living \u2014 while Kotek defends her policy approach. Drazan is more moderate in 2026 than 2022, targeting frustrated swing voters.",
+              "negatives": "Lost in 2022. Must prove she can win in a state that hasn't elected a Republican governor since 1982. Her party affiliation is a liability in blue Oregon.",
+              "partyCore": "Represents the Republican argument that Oregon needs a course correction: tougher on crime, more business-friendly, and less beholden to Portland's progressive politics."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Tina Kotek",
+            "winnerParty": "dem"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Jeff Merkley",
+              "party": "dem",
+              "role": "U.S. Senator, Incumbent (D-OR)"
+            },
+            {
+              "name": "David Brock Smith",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Pennsylvania": {
+      "abbr": "PA",
+      "races": [
+        {
+          "type": "House",
+          "district": "PA-01",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Brian Fitzpatrick",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-PA)",
+              "poll": null,
+              "stances": [
+                "Voted to limit Trump's Iran strike powers",
+                "One of the most bipartisan House members",
+                "Suburban Philadelphia district"
+              ],
+              "keyIssue": "Fitzpatrick's bipartisan record is tested in a polarized environment. His Iran vote sets him apart.",
+              "diff": "Fitzpatrick broke with his party on Iran war powers, positioning himself as an independent voice vs. Harvie's party-line approach.",
+              "negatives": "His independence from the party may cost him GOP base support in a competitive primary environment.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Bob Harvie",
+              "party": "dem",
+              "role": "Democratic Challenger (D-PA)",
+              "poll": null,
+              "stances": [
+                "Kitchen-table economic issues",
+                "Suburban appeal in a Biden-won district",
+                "Challenges Fitzpatrick's GOP ties"
+              ],
+              "keyIssue": "Democrats see this suburban Philadelphia seat as flippable, especially with economic anxiety driving turnout.",
+              "diff": "Harvie argues Fitzpatrick's moderate image masks a fundamentally Republican voting record.",
+              "negatives": "Running against a well-liked incumbent known for bipartisanship \u2014 a harder target than a standard Republican.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Bob Harvie",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "House",
+          "district": "PA-07",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Ryan Mackenzie",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-PA)",
+              "poll": null,
+              "stances": [
+                "First-term incumbent in Lehigh Valley",
+                "Fiscal conservative messaging",
+                "Won in 2024 by a slim margin"
+              ],
+              "keyIssue": "The Lehigh Valley has been trending Democratic, making Mackenzie's narrow 2024 win hard to repeat.",
+              "diff": "Mackenzie's fiscal focus vs. Brooks' community-oriented campaign in a shifting suburban district.",
+              "negatives": "Won narrowly in 2024. The district's demographics are moving toward Democrats.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Bob Brooks",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Focused on suburban Lehigh Valley issues",
+                "Education and healthcare platform",
+                "Running in favorable midterm environment"
+              ],
+              "keyIssue": "Democrats see PA-07 as a top pickup target in the Philly suburbs.",
+              "diff": "Brooks appeals to the shifting suburban electorate while Mackenzie defends his conservative record.",
+              "negatives": "First-time candidate challenging an incumbent. Must build name recognition quickly.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Bob Brooks",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "House",
+          "district": "PA-10",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Scott Perry",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-PA)",
+              "poll": null,
+              "stances": [
+                "Former Freedom Caucus chair with hardline conservative record in a moderate district",
+                "Connected to Jan. 6 investigation \u2014 FBI seized his phone",
+                "Opposes all abortion access; co-sponsored national abortion ban",
+                "Voted against infrastructure bill that funded projects in his own district",
+                "Opposes gun safety measures despite suburban voter support for reform",
+                "Strongly supports Trump's agenda across the board"
+              ],
+              "keyIssue": "Perry's far-right positioning in a moderate district makes him one of the most vulnerable Republicans. His Jan. 6 connections and phone seizure by the FBI are constant campaign liabilities.",
+              "diff": "Perry's Freedom Caucus brand clashes with his district's moderate lean, while Stelson offers a centrist alternative with high name recognition from her decades as a TV news anchor.",
+              "negatives": "Jan. 6 connections and FBI phone seizure dominate his public image. His conservative positioning is increasingly out of step with his suburban Harrisburg district.",
+              "partyCore": "A Freedom Caucus Republican who represents the combative, populist wing of the party: anti-establishment, pro-Trump, and willing to fight institutional norms."
+            },
+            {
+              "name": "Janelle Stelson",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Former TV news anchor with decades of name recognition across the district",
+                "Moderate centrist positioning; focuses on bipartisanship and common-sense governance",
+                "Supports reproductive rights and gun safety measures",
+                "Champions veterans' issues and military family support",
+                "Nearly won in 2024 \u2014 returns with stronger fundamentals in a better Democratic year",
+                "Focuses on kitchen-table economic issues \u2014 healthcare costs, housing, education"
+              ],
+              "keyIssue": "Stelson came close in 2024 and returns with stronger fundamentals. Her trusted local media persona contrasts with Perry's polarizing national profile.",
+              "diff": "Stelson's trusted local media persona and moderate positioning contrast sharply with Perry's Freedom Caucus brand. She emphasizes local issues while Perry is defined by national controversies.",
+              "negatives": "Lost in 2024 despite favorable conditions. Must prove she can close the deal in a rematch against a well-funded incumbent.",
+              "partyCore": "A former news anchor who represents the Democratic argument for good governance: transparency, healthcare access, and bipartisan problem-solving over partisan warfare."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Janelle Stelson",
+            "winnerParty": "dem",
+            "note": "Flip: R to D. Perry ousted."
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Josh Shapiro",
+              "party": "dem",
+              "role": "Governor, Incumbent (D-PA)"
+            },
+            {
+              "name": "Stacy Garrity",
+              "party": "rep",
+              "role": "State Treasurer (R-PA)"
+            }
+          ]
+        }
+      ]
+    },
+    "Rhode Island": {
+      "abbr": "RI",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Jack Reed",
+              "party": "dem",
+              "role": "U.S. Senator, Incumbent (D-RI)"
+            },
+            {
+              "name": "Raymond McKay",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Helena Buonanno Foulkes",
+              "party": "dem",
+              "role": "Former CVS Executive"
+            },
+            {
+              "name": "Elaine Pelino",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "South Carolina": {
+      "abbr": "SC",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Darline Graham",
+              "party": "rep",
+              "role": "U.S. Senator, Appointed (R-SC)",
+              "poll": "47%",
+              "stances": [
+                "Historic: First Black Republican woman to serve in the U.S. Senate; appointed to fill vacated seat",
+                "Military: Strong support for South Carolina's major military bases and defense spending",
+                "Economy: Pro-business conservative; supports tax cuts and deregulation for South Carolina's growing economy",
+                "Immigration: Supports border enforcement and Trump's immigration agenda",
+                "Social issues: Conservative on social policy; opposes abortion with limited exceptions",
+                "Education: Supports school choice and parental rights in education"
+              ],
+              "keyIssue": "Graham's historic appointment gives her national visibility, but she must win election on her own in a state where appointed senators have sometimes struggled to build their own base.",
+              "diff": "Graham benefits from incumbency and South Carolina's strong Republican lean, while Andrews runs a healthcare-focused grassroots campaign that tests whether the state's demographics are shifting.",
+              "negatives": "Was appointed rather than elected. Must prove she can win on her own merits. Some voters are unfamiliar with her beyond the appointment.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Annie Andrews",
+              "party": "dem",
+              "role": "Pediatrician, Democratic Nominee",
+              "poll": "45%",
+              "stances": [
+                "Healthcare: Pediatrician focused on children's health; opposes Medicaid cuts that would affect SC children and families",
+                "Economy: Focuses on cost of living and economic opportunity in underserved communities",
+                "Education: Champions public school funding and opposes diverting funds to private schools",
+                "Abortion: Supports reproductive rights; opposes South Carolina's near-total abortion ban",
+                "Rural issues: Advocates for rural healthcare access and hospital funding across South Carolina",
+                "Social issues: Progressive on voting rights and criminal justice reform"
+              ],
+              "keyIssue": "Andrews represents Democrats' surprising competitiveness in South Carolina this cycle. Her medical credentials give her unique credibility on the healthcare issue that polls highest among voters.",
+              "diff": "Andrews' pediatrician background gives her credibility on healthcare that's hard to counter with political attacks. Her grassroots campaign tests whether SC's growing diverse population can shift the electoral map.",
+              "negatives": "South Carolina hasn't elected a Democratic senator since 1998. Faces a significant structural disadvantage. First-time statewide candidate with limited fundraising compared to Republican incumbents.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Annie Andrews",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Likely R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Alan Wilson",
+              "party": "rep",
+              "role": "Attorney General (R-SC)"
+            },
+            {
+              "name": "Jermaine Johnson",
+              "party": "dem",
+              "role": "U.S. Representative (D-SC)"
+            }
+          ]
+        }
+      ]
+    },
+    "South Dakota": {
+      "abbr": "SD",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Mike Rounds",
+              "party": "rep",
+              "role": "U.S. Senator, Incumbent (R-SD)"
+            },
+            {
+              "name": "Brian Bengs",
+              "party": "ind",
+              "role": "Independent Candidate"
+            }
+          ]
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Larry Rhoden",
+              "party": "rep",
+              "role": "Governor, Incumbent (R-SD)"
+            },
+            {
+              "name": "Dan Ahlers",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Tennessee": {
+      "abbr": "TN",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Bill Hagerty",
+              "party": "rep",
+              "role": "U.S. Senator, Incumbent (R-TN)"
+            },
+            {
+              "name": "Marquita Bradshaw",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Marsha Blackburn",
+              "party": "rep",
+              "role": "U.S. Senator (R-TN)"
+            },
+            {
+              "name": "Jerri Green",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Texas": {
+      "abbr": "TX",
+      "races": [
+        {
+          "type": "House",
+          "district": "TX-15",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Monica De La Cruz",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-TX)",
+              "poll": null,
+              "stances": [
+                "First Republican to represent this historically Democratic South Texas district",
+                "Conservative on immigration; supports border wall and enforcement in the Rio Grande Valley",
+                "Pro-business; focuses on economic opportunity in South Texas",
+                "Won in the 2022 Hispanic voter shift toward Republicans",
+                "Social conservative; opposes abortion and supports traditional values messaging",
+                "Focused on local South Texas issues \u2014 infrastructure, jobs, border economy"
+              ],
+              "keyIssue": "This South Texas district tests whether the Hispanic voter shift toward Republicans is durable or was a one-time event. De La Cruz is the symbol of the GOP's Latino outreach.",
+              "diff": "De La Cruz's conservative immigration stance and Republican economic message vs. Pulido's cultural authenticity and Democratic tradition in the Rio Grande Valley.",
+              "negatives": "The district has historically been Democratic. Democrats are investing heavily to win it back. Her conservative immigration stance may not match the community's complex border views.",
+              "partyCore": "A Latina Republican who represents the GOP's growing appeal in South Texas: pro-business, tough on border security, and aligned with traditional family values."
+            },
+            {
+              "name": "Bobby Pulido",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Tejano music star with deep cultural connections to the Rio Grande Valley community",
+                "Running on South Texas heritage, economic opportunity, and community pride",
+                "Supports comprehensive immigration reform with border security and a pathway to citizenship",
+                "Focuses on healthcare access and cost of living in an underserved region",
+                "High name recognition in the Valley from his decades-long music career",
+                "Argues Democrats lost the district by taking Latino voters for granted \u2014 he won't"
+              ],
+              "keyIssue": "Pulido's celebrity and deep cultural connection to the Rio Grande Valley community make him a unique challenger. His music career gives him name recognition money can't buy.",
+              "diff": "Pulido brings cultural authenticity and celebrity that could mobilize traditional Democratic voters who stayed home in recent elections. He represents the Valley's identity in a way De La Cruz doesn't.",
+              "negatives": "No governing experience. Must translate celebrity into actual votes. The district's rightward shift may be structural, not just a reaction to individual candidates.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Bobby Pulido",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Governor",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Greg Abbott",
+              "party": "rep",
+              "role": "Governor, Incumbent (R-TX)",
+              "poll": null,
+              "stances": [
+                "Immigration: Launched Operation Lone Star; deployed National Guard to the border; built state-funded border barriers",
+                "Economy: Pro-business, low-regulation; attracted major corporate relocations to Texas (Tesla, Oracle, HP)",
+                "Energy: Supports oil and gas industry; faced criticism over 2021 grid failure; pushed grid reforms",
+                "Education: Signed school voucher legislation; supports parental rights in education",
+                "Guns: Signed permitless carry and other pro-gun legislation after Uvalde shooting drew national attention",
+                "Taxes: Pushed property tax reform; wants to reduce Texans' tax burden"
+              ],
+              "keyIssue": "Abbott seeks a historic fourth term as Texas faces questions about affordability, grid reliability, and whether his border policies are effective or performative.",
+              "diff": "Abbott's incumbency and border-focused agenda vs. Hinojosa's kitchen-table economic message. Abbott runs on the Texas growth model; Hinojosa argues the growth isn't reaching working families.",
+              "negatives": "The 2021 power grid crisis still haunts his record despite reforms. Property tax relief promises have not fully materialized. Uvalde response drew bipartisan criticism.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Gina Hinojosa",
+              "party": "dem",
+              "role": "State Representative, Democratic Nominee",
+              "poll": null,
+              "stances": [
+                "Education: Strong public school advocate; opposes school vouchers; champions teacher pay increases",
+                "Healthcare: Supports Medicaid expansion for Texas \u2014 one of the last holdout states; wants to lower costs",
+                "Economy: Focuses on cost of living and affordability; argues Texas' growth hasn't reached working families",
+                "Abortion: Opposes Texas' abortion ban; supports reproductive rights and access",
+                "Energy: Wants grid reliability improvements and investment in renewable energy alongside traditional sources",
+                "Immigration: Supports comprehensive immigration reform; opposes what she calls border 'theater'"
+              ],
+              "keyIssue": "Democrats hope Abbott fatigue and cost-of-living anger can make Texas competitive. Hinojosa's education and healthcare focus targets issues where Abbott is weakest.",
+              "diff": "Hinojosa brings legislative experience and a focus on kitchen-table issues \u2014 education, healthcare, affordability \u2014 that cross partisan lines and contrast with Abbott's culture-war focus.",
+              "negatives": "Texas hasn't elected a Democratic governor since 1990. Faces an enormous structural and fundraising disadvantage. Must dramatically outperform in suburbs to have any chance.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Gina Hinojosa",
+            "winnerParty": "dem",
+            "note": "Flip: R to D. First Latina governor of Texas."
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Likely R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Ken Paxton",
+              "party": "rep",
+              "role": "Attorney General of Texas (R)",
+              "poll": "45%",
+              "stances": [
+                "Immigration: Supports Big Bend border wall proposal; wants expanded state authority to deport undocumented immigrants",
+                "Education: Defended school voucher program in court; supports redirecting public school funding to private institutions",
+                "Economy: Supports Trump tariff agenda; backs tax breaks for energy companies; opposes minimum wage increases",
+                "Energy: Pushing data center expansion in Texas; opposes gas tax; wants to streamline permitting for oil and gas",
+                "Healthcare: Opposes Medicaid expansion; challenged ACA in federal court; supports restricting gender-affirming care for minors",
+                "Social issues: Strong Trump ally with full endorsement; anti-abortion; led legal challenges to 2020 election results"
+              ],
+              "keyIssue": "Paxton frames himself as the conservative warrior keeping Texas red, with Trump's backing as his centerpiece. He defended the school voucher program that Talarico opposes and pushed border wall expansion.",
+              "diff": "Unlike Talarico's grassroots outsider campaign, Paxton leans on his AG record and Trump's endorsement. He supports vouchers, the border wall, and restricting gender-affirming care \u2014 all positions Talarico opposes.",
+              "negatives": "Was impeached by the Texas House (acquitted by Senate). A leaked recording captures him complaining about the war and fuel prices. 51% of Marist respondents said he's too close to Trump.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "James Talarico",
+              "party": "dem",
+              "role": "State Representative (D-TX)",
+              "poll": "49%",
+              "stances": [
+                "Education: Opposes Texas school voucher program; champions public school funding and teacher pay raises",
+                "Economy: Raised $64M in Q3 from grassroots donors; focuses on cost of living as the #1 issue (68% of voters agree)",
+                "Immigration: Supports border security with a pathway to citizenship; opposes family separation; wants comprehensive reform",
+                "Healthcare: Supports Medicaid expansion; wants to lower prescription drug costs; opposes restrictions on gender-affirming care",
+                "Energy: Wants investment in grid reliability after 2021 crisis; supports renewable energy alongside traditional sources",
+                "Social issues: Distanced from national Democratic Party on some issues; moderate on guns compared to national Democrats"
+              ],
+              "keyIssue": "Cost of living is the defining issue \u2014 68% of voters called it extremely important. Talarico raised $64M in one quarter from small donors, signaling massive grassroots energy against Paxton.",
+              "diff": "While Paxton defends school vouchers in court, Talarico opposes them entirely. Talarico has distanced himself from the national party on some social issues while Paxton has leaned fully into Trump's orbit.",
+              "negatives": "More than half of Marist poll respondents said he is too liberal for Texas. Was criticized by Trump for missing campaign events due to illness. No statewide experience.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "James Talarico",
+            "winnerParty": "dem",
+            "note": "Flip: R to D. First Dem statewide win in TX in 32 years."
+          }
+        }
+      ]
+    },
+    "Vermont": {
+      "abbr": "VT",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Likely R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Phil Scott",
+              "party": "rep",
+              "role": "Governor, Incumbent (R-VT)"
+            },
+            {
+              "name": "Amanda Janoo",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Virginia": {
+      "abbr": "VA",
+      "races": [
+        {
+          "type": "House",
+          "district": "VA-01",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Rob Wittman",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-VA)",
+              "poll": null,
+              "stances": [
+                "Long-tenured Republican in Hampton Roads district",
+                "Defense hawk near military bases",
+                "Traditionally safe seat now competitive"
+              ],
+              "keyIssue": "Virginia's suburban shift has reached even Wittman's once-safe district.",
+              "diff": "Wittman's defense expertise vs. Taylor's focus on suburban family issues in a rapidly changing district.",
+              "negatives": "The district is becoming increasingly suburban and Democratic-leaning. His long tenure may work against him.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Shannon Taylor",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Running on suburban quality-of-life issues",
+                "Healthcare and education focus",
+                "Part of Virginia's suburban Democratic wave"
+              ],
+              "keyIssue": "Democrats believe Virginia's suburbs have shifted enough to put this seat in play.",
+              "diff": "Taylor appeals to the growing suburban electorate that has been moving away from Republicans.",
+              "negatives": "Challenging a well-established incumbent with deep district ties.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Shannon Taylor",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        },
+        {
+          "type": "Senate",
+          "rating": "Safe D",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Mark Warner",
+              "party": "dem",
+              "role": "U.S. Senator, Incumbent (D-VA)"
+            },
+            {
+              "name": "Bert Mizusawa",
+              "party": "rep",
+              "role": "Republican Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Washington": {
+      "abbr": "WA",
+      "races": [
+        {
+          "type": "House",
+          "district": "WA-03",
+          "rating": "Lean D",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Marie Gluesenkamp Perez",
+              "party": "dem",
+              "role": "U.S. Representative, Incumbent (D-WA)",
+              "poll": null,
+              "stances": [
+                "Blue-collar Democrat in a deep-red Trump district; auto shop owner who fixes cars for a living",
+                "Beat Joe Kent twice in a row \u2014 proven crossover appeal with Trump voters",
+                "Pro-gun; supports Second Amendment rights unlike most national Democrats",
+                "Focuses on trade jobs, apprenticeships, and working-class economic issues",
+                "Breaks with national Democrats on some cultural issues; independent positioning",
+                "Opposes regulations that hurt small businesses and trade workers"
+              ],
+              "keyIssue": "Can a working-class Democrat keep winning in deep-red territory? She's done it twice by being authentically blue-collar and breaking with her party on key issues.",
+              "diff": "Perez's hands-on blue-collar identity \u2014 she literally runs an auto repair shop \u2014 vs. Braun's traditional state legislator background. She outperforms the Democratic brand by being herself.",
+              "negatives": "Trump won her district significantly \u2014 she's swimming upstream every cycle. A Republican wave year could overwhelm even her crossover appeal.",
+              "partyCore": "A blue-collar Democrat \u2014 an auto shop owner \u2014 who represents the party's working-class roots: practical problem-solving, infrastructure investment, and standing up for rural communities."
+            },
+            {
+              "name": "John Braun",
+              "party": "rep",
+              "role": "State Senator (R-WA)",
+              "poll": null,
+              "stances": [
+                "State Senate leader with legislative experience and mainstream conservative credentials",
+                "Focused on fiscal responsibility and reducing state regulation",
+                "Pro-business conservative; supports lower taxes and less government spending",
+                "Moderate on tone compared to Joe Kent; avoids extreme MAGA positioning",
+                "Supports Second Amendment rights and rural economic issues",
+                "Aims to flip the seat back to GOP with a less polarizing approach than previous nominees"
+              ],
+              "keyIssue": "Republicans hope a less extreme candidate than Joe Kent can finally beat Perez. Braun's mainstream conservative profile is designed to avoid the toxicity that sank Kent twice.",
+              "diff": "Braun offers a traditional conservative alternative to Perez's populist Democrat brand. He's betting that a normal Republican can win where an extreme one couldn't.",
+              "negatives": "Two previous Republican nominees lost to Perez. Must prove he can win where others failed. His state legislature background lacks the grassroots energy of Perez's blue-collar brand.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Marie Gluesenkamp Perez",
+            "winnerParty": "dem"
+          }
+        }
+      ]
+    },
+    "West Virginia": {
+      "abbr": "WV",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Shelley Moore Capito",
+              "party": "rep",
+              "role": "U.S. Senator, Incumbent (R-WV)"
+            },
+            {
+              "name": "Rachel Fetty Anderson",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        }
+      ]
+    },
+    "Wisconsin": {
+      "abbr": "WI",
+      "races": [
+        {
+          "type": "Governor",
+          "rating": "Toss-Up",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "David Crowley",
+              "party": "dem",
+              "role": "Milwaukee County Executive (D-WI)",
+              "poll": null,
+              "stances": [
+                "Criminal justice: Progressive reform advocate; invested in alternatives to incarceration",
+                "Economy: Focused on economic opportunity in underserved communities; supports workforce development",
+                "Healthcare: Supports Medicaid expansion for Wisconsin; champions mental health services",
+                "Education: Advocates for public school funding; opposes school voucher expansion",
+                "Housing: Championed affordable housing initiatives in Milwaukee County",
+                "Government: Young progressive leader who has managed a major county government"
+              ],
+              "keyIssue": "Wisconsin is the ultimate swing state \u2014 this open-seat race could be decided by razor-thin margins. Crowley must build statewide name recognition beyond his Milwaukee base.",
+              "diff": "Crowley's urban progressive base and executive experience vs. Tiffany's rural conservative appeal. The race mirrors Wisconsin's stark rural-urban divide.",
+              "negatives": "Must build statewide name recognition beyond Milwaukee. Wisconsin's rural-urban divide is stark. Some moderate voters may find his progressive positioning too left for a statewide race.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            },
+            {
+              "name": "Tom Tiffany",
+              "party": "rep",
+              "role": "U.S. Representative (R-WI)",
+              "poll": null,
+              "stances": [
+                "Trump alignment: Pro-Trump conservative; supports the president's agenda across the board",
+                "Economy: Focused on rural economic issues; supports logging, mining, and natural resource industries",
+                "Guns: Strong Second Amendment advocate; opposes all new gun restrictions",
+                "Immigration: Hardline on border enforcement; supports Trump's deportation agenda",
+                "Environment: Opposes environmental regulations that restrict logging and mining in northern Wisconsin",
+                "Education: Supports school choice; opposes 'woke' curriculum in public schools"
+              ],
+              "keyIssue": "Tiffany must expand beyond his rural base to compete statewide in a state Trump won by less than a point. His conservative positioning energizes rural voters but risks suburban backlash.",
+              "diff": "Tiffany's rural roots and Trump alignment vs. Crowley's Milwaukee base and progressive credentials. The geographic divide between their bases IS the race \u2014 whoever wins the suburbs wins Wisconsin.",
+              "negatives": "Represents a deeply conservative rural district and may struggle to appeal to suburban swing voters. His strong Trump alignment is a liability in Milwaukee and Madison suburbs.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "David Crowley",
+            "winnerParty": "dem"
+          }
+        },
+        {
+          "type": "House",
+          "district": "WI-01",
+          "rating": "Lean R",
+          "competitive": true,
+          "candidates": [
+            {
+              "name": "Bryan Steil",
+              "party": "rep",
+              "role": "U.S. Representative, Incumbent (R-WI)",
+              "poll": null,
+              "stances": [
+                "Paul Ryan's successor in southeastern Wisconsin",
+                "Conservative on fiscal issues",
+                "Suburban Milwaukee-area district"
+              ],
+              "keyIssue": "Wisconsin's suburban shift threatens Steil's hold on this southeastern district.",
+              "diff": "Steil's conservative fiscal record vs. Berman's suburban-focused moderate Democratic appeal.",
+              "negatives": "Suburbs in his district are trending Democratic. Anti-Trump sentiment is strong in the Milwaukee suburbs.",
+              "partyCore": "Runs on the Republican platform of limited government, fiscal conservatism, and traditional values."
+            },
+            {
+              "name": "Mitchell Berman",
+              "party": "dem",
+              "role": "Democratic Challenger",
+              "poll": null,
+              "stances": [
+                "Running on suburban economic issues",
+                "Healthcare and education focus",
+                "Part of Wisconsin's competitive landscape"
+              ],
+              "keyIssue": "Democrats believe the suburban shift makes WI-01 competitive for the first time in years.",
+              "diff": "Berman appeals to the suburbanites who have been drifting from Republicans in recent cycles.",
+              "negatives": "Challenging an incumbent in a district that has historically been Republican.",
+              "partyCore": "Runs on the Democratic platform of expanding opportunity, investing in public services, and protecting individual rights."
+            }
+          ],
+          "result": {
+            "status": "called",
+            "winner": "Mitchell Berman",
+            "winnerParty": "dem",
+            "note": "Flip: R to D"
+          }
+        }
+      ]
+    },
+    "Wyoming": {
+      "abbr": "WY",
+      "races": [
+        {
+          "type": "Senate",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Harriet Hageman",
+              "party": "rep",
+              "role": "U.S. Representative (R-WY)"
+            },
+            {
+              "name": "James Byrd",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        },
+        {
+          "type": "Governor",
+          "rating": "Safe R",
+          "competitive": false,
+          "candidates": [
+            {
+              "name": "Eric Barlow",
+              "party": "rep",
+              "role": "State Senator (R-WY)"
+            },
+            {
+              "name": "Ken Casner",
+              "party": "dem",
+              "role": "Democratic Nominee"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
